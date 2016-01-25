@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CFTraining.DataStructures
 {
-    class SegmentTree
+    class SegmentTree // uses lazy propagation
     {
         private int[] _original, _tree, _lazy;
         private int _size;
