@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace CFTraining.DataStructures
 {
-    class SegmentTree // uses lazy propagation
+    /*
+     *      Finds the minimum value between an interval [L..R]
+     *      Uses lazy propagation
+     * 
+     */
+    class SegmentTree
     {
         private int[] _original, _tree, _lazy;
         private int _size;

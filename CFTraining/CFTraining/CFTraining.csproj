@@ -34,6 +34,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -41,9 +42,63 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="A%27s\Bulbs338.cs" />
+    <Compile Include="A%27s\ComparingTwoLongIntegersECR5.cs" />
+    <Compile Include="A%27s\Dubstep130.cs" />
+    <Compile Include="A%27s\Elephant340.cs" />
+    <Compile Include="A%27s\Expression274.cs" />
+    <Compile Include="A%27s\FlashCardsECR3.cs" />
+    <Compile Include="A%27s\LinkCutTree339.cs" />
+    <Compile Include="A%27s\LLPS127.cs" />
+    <Compile Include="A%27s\ProfessorGukiZsRobotECR6.cs" />
+    <Compile Include="A%27s\SaitamaDestroysHotel336.cs" />
+    <Compile Include="A%27s\TextSplittingECR4.cs" />
+    <Compile Include="A%27s\UltraFastMathematician57.cs" />
+    <Compile Include="A%27s\UncowedForces334.cs" />
+    <Compile Include="A%27s\YoungPhysicist63.cs" />
+    <Compile Include="B%27s\Chocolate340.cs" />
+    <Compile Include="B%27s\DinnerWithEmmaECR5.cs" />
+    <Compile Include="B%27s\GenasCode339.cs" />
+    <Compile Include="B%27s\GrandfatherDovletsCalculatorECR6.cs" />
+    <Compile Include="B%27s\HammingDistanceSum336.cs" />
+    <Compile Include="B%27s\HardWork57.cs" />
+    <Compile Include="B%27s\HddIsOutdatedTechnologyECR4.cs" />
+    <Compile Include="B%27s\LongtailHedgehog338.cs" />
+    <Compile Include="B%27s\MoreCowbell334.cs" />
+    <Compile Include="B%27s\RandomTeams273.cs" />
+    <Compile Include="B%27s\TheBestGiftECR3.cs" />
+    <Compile Include="Bootstrap.cs" />
+    <Compile Include="C%27s\ChainReaction336.cs" />
+    <Compile Include="C%27s\ClearSymmetry127.cs" />
+    <Compile Include="C%27s\LoadBalancingECR3.cs" />
+    <Compile Include="C%27s\PearsInARowECR6.cs" />
+    <Compile Include="C%27s\PeterAndSnowBlower339.cs" />
+    <Compile Include="C%27s\PredictOutcome258.cs" />
+    <Compile Include="C%27s\ReplaceToMakeRegularBracketSequenceECR4.cs" />
+    <Compile Include="C%27s\RunningTrack338.cs" />
+    <Compile Include="C%27s\TableDecorations273.cs" />
+    <Compile Include="C%27s\TheLabyrinthECR5.cs" />
+    <Compile Include="C%27s\WateringFlowers340.cs" />
+    <Compile Include="D%27s\CountGoodSubstrings451.cs" />
+    <Compile Include="D%27s\EternalVictory57.cs" />
+    <Compile Include="D%27s\LongestK-GoodSegmentECR5.cs" />
+    <Compile Include="D%27s\Polyline340.cs" />
+    <Compile Include="D%27s\ProfessorGukiZAndTwoArraysECR6.cs" />
+    <Compile Include="D%27s\Skills339.cs" />
+    <Compile Include="D%27s\TheUnionOfKSegmentsECR4.cs" />
     <Compile Include="DataStructures\SegmentTree.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="E%27s\DevuAndFlowers258.cs" />
+    <Compile Include="E%27s\Hexagons338.cs" />
+    <Compile Include="E%27s\NewYearTreeECR6.cs" />
+    <Compile Include="GoodBye2015\AncientProphecyD.cs" />
+    <Compile Include="GoodBye2015\DaysA.cs" />
+    <Compile Include="GoodBye2015\DominoC.cs" />
+    <Compile Include="GoodBye2015\OldProperyB.cs" />
+    <Compile Include="HackerRank\CoinChange.cs" />
+    <Compile Include="HackerRank\MaximumSubarray.cs" />
+    <Compile Include="HackerRank\NextPalindrome.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
