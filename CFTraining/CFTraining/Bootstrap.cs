@@ -1,4 +1,5 @@
-﻿using CFTraining.E_s;
+﻿using CFTraining.D_s;
+using CFTraining.E_s;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +12,7 @@ namespace CFTraining
     {
         public static void Main(string[] args)
         {
-            NewYearTreeECR6.Run();
+            Polyline340.Run();
             //Console.WriteLine(3L | 4L);
         }
     }
