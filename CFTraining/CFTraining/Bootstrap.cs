@@ -1,5 +1,6 @@
 ﻿using CFTraining.D_s;
 using CFTraining.E_s;
+using CFTraining.F_s;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,8 +13,7 @@ namespace CFTraining
     {
         public static void Main(string[] args)
         {
-            XorAndFavoriteNumber340.Run();
-            //Console.WriteLine((int)2e3);
+            XorsOnSegmentsECR6.Run();
         }
     }
 }
