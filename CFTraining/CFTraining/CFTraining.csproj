@@ -90,6 +90,7 @@
     <Compile Include="E%27s\DevuAndFlowers258.cs" />
     <Compile Include="E%27s\Hexagons338.cs" />
     <Compile Include="E%27s\NewYearTreeECR6.cs" />
+    <Compile Include="E%27s\XorAndFavoriteNumber340.cs" />
     <Compile Include="GoodBye2015\AncientProphecyD.cs" />
     <Compile Include="GoodBye2015\DaysA.cs" />
     <Compile Include="GoodBye2015\DominoC.cs" />
@@ -97,6 +98,7 @@
     <Compile Include="HackerRank\CoinChange.cs" />
     <Compile Include="HackerRank\MaximumSubarray.cs" />
     <Compile Include="HackerRank\NextPalindrome.cs" />
+    <Compile Include="Helpers\ConsoleScanner.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilities.cs" />
   </ItemGroup>

@@ -12,8 +12,8 @@ namespace CFTraining
     {
         public static void Main(string[] args)
         {
-            Polyline340.Run();
-            //Console.WriteLine(3L | 4L);
+            XorAndFavoriteNumber340.Run();
+            //Console.WriteLine((int)2e3);
         }
     }
 }
