@@ -1,4 +1,5 @@
-﻿using CFTraining.D_s;
+﻿using CFTraining.C_s;
+using CFTraining.D_s;
 using CFTraining.E_s;
 using CFTraining.F_s;
 using System;
@@ -13,7 +14,7 @@ namespace CFTraining
     {
         public static void Main(string[] args)
         {
-            XorsOnSegmentsECR6.Run();
+            AlternativeThinking334.Run();
         }
     }
 }

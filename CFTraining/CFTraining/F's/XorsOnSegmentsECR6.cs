@@ -9,7 +9,7 @@ namespace CFTraining.F_s
 {
     class XorsOnSegmentsECR6
     {
-        // Not solved yet!
+        // Not solved yet! Should throw OutOfMemoryException
         public static void Run()
         {
             ConsoleScanner sc = new ConsoleScanner();
@@ -29,12 +29,14 @@ namespace CFTraining.F_s
             {
                 for (int l = r; l >= 0; l--)
                 {
-                    int xor = 0;
-                    if (a[l] <= a[r]) xor = pref[a[r]] ^ (a[l] > 0 ? pref[a[l] - 1] : 0);
                     if (l == r) dp[l, r] = a[l];
                     else
                     {
-                        dp[l, r] = Math.Max(dp[l, r - 1], Math.Max(dp[l + 1, r], xor));
+                        int xor1 = 0;
+                        if (a[l] <= a[r]) xor1 = pref[a[r]] ^ (a[l] > 0 ? pref[a[l] - 1] : 0);
+                        int xor2 = 0;
+                        if (a[r] < a[l]) xor2 = pref[a[l]] ^ (a[r] > 0 ? pref[a[r] - 1] : 0);
+                        dp[l, r] = Math.Max(dp[l, r - 1], Math.Max(dp[l + 1, r], Math.Max(xor1, xor2)));
                     }
                 }
             }

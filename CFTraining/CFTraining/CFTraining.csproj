@@ -68,6 +68,7 @@
     <Compile Include="B%27s\RandomTeams273.cs" />
     <Compile Include="B%27s\TheBestGiftECR3.cs" />
     <Compile Include="Bootstrap.cs" />
+    <Compile Include="C%27s\AlternativeThinking334.cs" />
     <Compile Include="C%27s\ChainReaction336.cs" />
     <Compile Include="C%27s\ClearSymmetry127.cs" />
     <Compile Include="C%27s\LoadBalancingECR3.cs" />
