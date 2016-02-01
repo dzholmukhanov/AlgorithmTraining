@@ -61,7 +61,7 @@
     <Compile Include="B%27s\DinnerWithEmmaECR5.cs" />
     <Compile Include="B%27s\GenasCode339.cs" />
     <Compile Include="B%27s\GrandfatherDovletsCalculatorECR6.cs" />
-    <Compile Include="B%27s\GuessPermutation.cs" />
+    <Compile Include="WunderFund2016\GuessPermutation.cs" />
     <Compile Include="B%27s\HammingDistanceSum336.cs" />
     <Compile Include="B%27s\HardWork57.cs" />
     <Compile Include="B%27s\HddIsOutdatedTechnologyECR4.cs" />

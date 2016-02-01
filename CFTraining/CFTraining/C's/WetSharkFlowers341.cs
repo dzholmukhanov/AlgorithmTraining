@@ -9,43 +9,25 @@ namespace CFTraining.C_s
 {
     class WetSharkFlowers341
     {
-        // Not solved yet
         public static void Run()
         {
             ConsoleScanner sc = new ConsoleScanner();
             int n = sc.NextInt(), p = sc.NextInt();
-            Shark[] s = new Shark[n];
-            long total = 1;
+            long[] l = new long[n], r = new long[n];
             for (int i = 0; i < n; i++)
             {
-                int l = sc.NextInt(), r = sc.NextInt();
-                s[i] = new Shark { l = l, r = r};
-                total *= r - l + 1;
+                l[i] = sc.NextInt();
+                r[i] = sc.NextInt();
             }
-            long num = 0;
+            double expected = 0;
             for (int i = 0; i < n; i++)
             {
-                int l = i - 1, r = i + 1;
-                if (i == 0)
-                {
-                    l = n - 1;
-                }
-                else if (i == n - 1)
-                {
-                    r = 0;
-                }
-                long m1 = s[i].r / p - ((s[i].l - 1) / p), c1 = s[i].r - s[i].l + 1;
-                long m2 = s[l].r / p - ((s[l].l - 1) / p), c2 = s[l].r - s[l].l + 1;
-                long m3 = s[r].r / p - ((s[r].l - 1) / p), c3 = s[r].r - s[r].l + 1;
-                num += (m1 * c2 + m2 * (c1 - m1)) * (total / (c1 * c2));
-                num += (m1 * c3 + m3 * (c1 - m1)) * (total / (c1 * c3));
+                int j = (i + 1) % n;
+                long pi = r[i] / p - (l[i] - 1) / p, pj = r[j] / p - (l[j] - 1) / p;
+                double e = 1 - ((r[i] - l[i] + 1 - pi) * (r[j] - l[j] + 1 - pj) * 1.0) / ((r[i] - l[i] + 1) * (r[j] - l[j] + 1) * 1.0);
+                expected += e * 2e3;
             }
-            double res = (num * 1000.0) / (total * 1.0);
-            Console.WriteLine(res.ToString().Replace(",", "."));
+            Console.WriteLine(expected.ToString().Replace(",", "."));
         }
-    }
-    class Shark
-    {
-        public int l, r;
     }
 }

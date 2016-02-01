@@ -18,7 +18,7 @@ namespace CFTraining
     {
         public static void Main(string[] args)
         {
-            WetSharkFlowers341.Run();
+            GuessPermutation.Run();
         }
     }
 }
