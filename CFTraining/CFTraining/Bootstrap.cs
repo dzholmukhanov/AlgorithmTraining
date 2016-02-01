@@ -1,7 +1,11 @@
-﻿using CFTraining.C_s;
+﻿using CFTraining.A_s;
+using CFTraining.B_s;
+using CFTraining.C_s;
 using CFTraining.D_s;
 using CFTraining.E_s;
 using CFTraining.F_s;
+using CFTraining.WorldCodeSprint;
+using CFTraining.WunderFund2016;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +18,7 @@ namespace CFTraining
     {
         public static void Main(string[] args)
         {
-            AlternativeThinking334.Run();
+            WetSharkFlowers341.Run();
         }
     }
 }

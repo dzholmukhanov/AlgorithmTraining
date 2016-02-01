@@ -55,11 +55,13 @@
     <Compile Include="A%27s\TextSplittingECR4.cs" />
     <Compile Include="A%27s\UltraFastMathematician57.cs" />
     <Compile Include="A%27s\UncowedForces334.cs" />
+    <Compile Include="A%27s\WetSharkOddEven341.cs" />
     <Compile Include="A%27s\YoungPhysicist63.cs" />
     <Compile Include="B%27s\Chocolate340.cs" />
     <Compile Include="B%27s\DinnerWithEmmaECR5.cs" />
     <Compile Include="B%27s\GenasCode339.cs" />
     <Compile Include="B%27s\GrandfatherDovletsCalculatorECR6.cs" />
+    <Compile Include="B%27s\GuessPermutation.cs" />
     <Compile Include="B%27s\HammingDistanceSum336.cs" />
     <Compile Include="B%27s\HardWork57.cs" />
     <Compile Include="B%27s\HddIsOutdatedTechnologyECR4.cs" />
@@ -67,6 +69,7 @@
     <Compile Include="B%27s\MoreCowbell334.cs" />
     <Compile Include="B%27s\RandomTeams273.cs" />
     <Compile Include="B%27s\TheBestGiftECR3.cs" />
+    <Compile Include="B%27s\WetSharkBishops341.cs" />
     <Compile Include="Bootstrap.cs" />
     <Compile Include="C%27s\AlternativeThinking334.cs" />
     <Compile Include="C%27s\ChainReaction336.cs" />
@@ -80,6 +83,7 @@
     <Compile Include="C%27s\TableDecorations273.cs" />
     <Compile Include="C%27s\TheLabyrinthECR5.cs" />
     <Compile Include="C%27s\WateringFlowers340.cs" />
+    <Compile Include="C%27s\WetSharkFlowers341.cs" />
     <Compile Include="D%27s\CountGoodSubstrings451.cs" />
     <Compile Include="D%27s\EternalVictory57.cs" />
     <Compile Include="D%27s\LongestK-GoodSegmentECR5.cs" />
@@ -103,10 +107,14 @@
     <Compile Include="Helpers\ConsoleScanner.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilities.cs" />
+    <Compile Include="WorldCodeSprint\EmasSupercomputer.cs" />
+    <Compile Include="WunderFund2016\Constellation.cs" />
+    <Compile Include="WunderFund2016\SlimeCombining.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
