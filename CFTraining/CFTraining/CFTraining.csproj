@@ -57,10 +57,15 @@
     <Compile Include="A%27s\UncowedForces334.cs" />
     <Compile Include="A%27s\WetSharkOddEven341.cs" />
     <Compile Include="A%27s\YoungPhysicist63.cs" />
+    <Compile Include="AimTech\ProblemD.cs" />
+    <Compile Include="AimTech\ProblemC.cs" />
+    <Compile Include="AimTech\ProblemB.cs" />
+    <Compile Include="AimTech\ProblemA.cs" />
     <Compile Include="B%27s\Chocolate340.cs" />
     <Compile Include="B%27s\DinnerWithEmmaECR5.cs" />
     <Compile Include="B%27s\GenasCode339.cs" />
     <Compile Include="B%27s\GrandfatherDovletsCalculatorECR6.cs" />
+    <Compile Include="WorldCodeSprint\AlienFlowers.cs" />
     <Compile Include="WunderFund2016\GuessPermutation.cs" />
     <Compile Include="B%27s\HammingDistanceSum336.cs" />
     <Compile Include="B%27s\HardWork57.cs" />

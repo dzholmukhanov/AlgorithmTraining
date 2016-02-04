@@ -6,6 +6,7 @@ using CFTraining.E_s;
 using CFTraining.F_s;
 using CFTraining.WorldCodeSprint;
 using CFTraining.WunderFund2016;
+using CFTraining.AimTech;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,7 +19,7 @@ namespace CFTraining
     {
         public static void Main(string[] args)
         {
-            GuessPermutation.Run();
+            ProblemC.Run();
         }
     }
 }
