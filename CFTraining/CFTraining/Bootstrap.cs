@@ -19,7 +19,7 @@ namespace CFTraining
     {
         public static void Main(string[] args)
         {
-            ProblemC.Run();
+            KspecialTables342.Run();
         }
     }
 }

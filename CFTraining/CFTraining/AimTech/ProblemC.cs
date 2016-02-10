@@ -9,13 +9,12 @@ namespace CFTraining.AimTech
 {
     class ProblemC
     {
-        // Not solved yet
         public static void Run()
         {
             ConsoleScanner cs = new ConsoleScanner();
             int n = cs.NextInt(), m = cs.NextInt(), acount = 0, bcount = 0, ccount = 0;
             int[,] graph = new int[n, n];
-            int[] letter = new int[n];
+            char[] letter = Enumerable.Repeat(' ', n).ToArray();
             LinkedList<int> nodes = new LinkedList<int>();
             for (int i = 0; i < n; i++) nodes.AddLast(i);
             for (int i = 0; i < m; i++)
@@ -34,89 +33,82 @@ namespace CFTraining.AimTech
                 if (adj == n - 1)
                 {
                     nodes.Remove(i);
-                    letter[i] = 2;
+                    letter[i] = 'b';
                     bcount++;
                 }
             }
-            if (nodes.Count == 0)
+            if (nodes.Count != 0)
             {
-                Console.WriteLine("Yes");
+                int a = nodes.First();
+                nodes.RemoveFirst();
+                letter[a] = 'a';
+                acount++;
                 for (int i = 0; i < n; i++)
-                    Console.Write("b");
-                Console.WriteLine();
-                return;
-            }
-            int a = nodes.First();
-            nodes.RemoveFirst();
-            letter[a] = 1;
-            acount++;
-            for (int i = 0; i < n; i++)
-            {
-                if (graph[a, i] == 1 && letter[i] == 0)
                 {
-                    letter[i] = 1;
-                    nodes.Remove(i);
-                    acount++;
-                }
-            }
-            if (nodes.Count == 0)
-            {
-                Console.WriteLine("Yes");
-                for (int i = 0; i < acount; i++)
-                    Console.Write("a");
-                for (int i = 0; i < bcount; i++)
-                    Console.Write("b");
-                Console.WriteLine();
-                return;
-            }
-            int c = nodes.First();
-            nodes.RemoveFirst();
-            letter[c] = 3;
-            ccount++;
-            for (int i = 0; i < n; i++)
-            {
-                if (graph[c, i] == 1)
-                {
-                    if (letter[i] == 0)
+                    if (graph[a, i] == 1 && letter[i] == ' ')
                     {
-                        letter[i] = 3;
+                        letter[i] = 'a';
                         nodes.Remove(i);
-                        ccount++;
+                        acount++;
                     }
-                    else if (letter[i] == 1)
+                }
+                if (nodes.Count != 0)
+                {
+                    int c = nodes.First();
+                    nodes.RemoveFirst();
+                    letter[c] = 'c';
+                    ccount++;
+                    for (int i = 0; i < n; i++)
+                    {
+                        if (graph[c, i] == 1)
+                        {
+                            if (letter[i] == ' ')
+                            {
+                                letter[i] = 'c';
+                                nodes.Remove(i);
+                                ccount++;
+                            }
+                            else if (letter[i] == ' ')
+                            {
+                                Console.WriteLine("No");
+                                return;
+                            }
+                        }
+                    }
+                    if (nodes.Count > 0)
                     {
                         Console.WriteLine("No");
                         return;
                     }
-                }
-            }
-            if (nodes.Count > 0) {
-                Console.WriteLine("No");
-                return;
-            }
-            for (int i = 0; i < n; i++)
-            {
-                if (letter[i] == 2) continue;
-                for (int j = 0; j < n; j++)
-                {
-                    if (graph[i, j] == 1)
+                    for (int i = 0; i < n; i++)
                     {
-                        if (letter[j] != 2 && letter[i] != letter[j])
+                        if (letter[i] == 'b') continue;
+                        int adj = 0;
+                        for (int j = 0; j < n; j++)
+                        {
+                            if (graph[i, j] == 1)
+                            {
+                                if (letter[j] != 'b')
+                                {
+                                    if (letter[i] != letter[j])
+                                    {
+                                        Console.WriteLine("No");
+                                        return;
+                                    }
+                                    else adj++;
+                                }
+                            }
+                        }
+                        if ((letter[i] == 'a' && adj < acount - 1) || (letter[i] == 'c' && adj < ccount - 1))
                         {
                             Console.WriteLine("No");
                             return;
-                        }
+                        } 
                     }
                 }
             }
             Console.WriteLine("Yes");
-            for (int i = 0; i < acount; i++)
-                Console.Write("a");
-            for (int i = 0; i < bcount; i++)
-                Console.Write("b");
-            for (int i = 0; i < ccount; i++)
-                Console.Write("c");
-            Console.WriteLine();
+            for (int i = 0; i < n; i++) Console.Write(letter[i]);
         }
     }
 }

@@ -48,6 +48,7 @@
     <Compile Include="A%27s\Elephant340.cs" />
     <Compile Include="A%27s\Expression274.cs" />
     <Compile Include="A%27s\FlashCardsECR3.cs" />
+    <Compile Include="A%27s\GuestFromThePast342.cs" />
     <Compile Include="A%27s\LinkCutTree339.cs" />
     <Compile Include="A%27s\LLPS127.cs" />
     <Compile Include="A%27s\ProfessorGukiZsRobotECR6.cs" />
@@ -65,6 +66,7 @@
     <Compile Include="B%27s\DinnerWithEmmaECR5.cs" />
     <Compile Include="B%27s\GenasCode339.cs" />
     <Compile Include="B%27s\GrandfatherDovletsCalculatorECR6.cs" />
+    <Compile Include="C%27s\KspecialTables342.cs" />
     <Compile Include="WorldCodeSprint\AlienFlowers.cs" />
     <Compile Include="WunderFund2016\GuessPermutation.cs" />
     <Compile Include="B%27s\HammingDistanceSum336.cs" />
