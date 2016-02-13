@@ -1,28 +1,27 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace CFTraining.Helpers
 {
-    // Deprecated. Use FastScanner instead.
-    class ConsoleScanner
+    class FastScanner : StreamReader
     {
         private string[] _line;
         private int _iterator;
 
-        public ConsoleScanner()
+        public FastScanner(Stream stream) : base(stream)
         {
             _line = null;
             _iterator = 0;
         }
-
         public int NextInt()
         {
             if (_line == null || _iterator >= _line.Length)
             {
-                _line = Console.ReadLine().Split(' ');
+                _line = base.ReadLine().Split(' ');
                 _iterator = 0;
             }
             if (_line.Count() == 0) throw new IndexOutOfRangeException("Input string is empty");
@@ -32,19 +31,11 @@ namespace CFTraining.Helpers
         {
             if (_line == null || _iterator >= _line.Length)
             {
-                _line = Console.ReadLine().Split(' ');
+                _line = base.ReadLine().Split(' ');
                 _iterator = 0;
             }
             if (_line.Count() == 0) throw new IndexOutOfRangeException("Input string is empty");
             return Convert.ToInt64(_line[_iterator++]);
-        }
-        public int Read()
-        {
-            return Console.Read();
-        }
-        public string ReadLine()
-        {
-            return Console.ReadLine();
         }
     }
 }

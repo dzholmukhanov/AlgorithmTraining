@@ -12,6 +12,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CFTraining.HackerRank;
+using System.Numerics;
 
 namespace CFTraining
 {
@@ -19,7 +21,7 @@ namespace CFTraining
     {
         public static void Main(string[] args)
         {
-            KspecialTables342.Run();
+            NotEqualOnSegmentECR7.Run();
         }
     }
 }

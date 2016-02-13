@@ -67,6 +67,12 @@
     <Compile Include="B%27s\GenasCode339.cs" />
     <Compile Include="B%27s\GrandfatherDovletsCalculatorECR6.cs" />
     <Compile Include="C%27s\KspecialTables342.cs" />
+    <Compile Include="C%27s\NotEqualOnSegmentECR7.cs" />
+    <Compile Include="HackerRank\Candies.cs" />
+    <Compile Include="HackerRank\Equal.cs" />
+    <Compile Include="HackerRank\LongestIncreasingSubsequence.cs" />
+    <Compile Include="HackerRank\StockMaximize.cs" />
+    <Compile Include="Helpers\FastScanner.cs" />
     <Compile Include="WorldCodeSprint\AlienFlowers.cs" />
     <Compile Include="WunderFund2016\GuessPermutation.cs" />
     <Compile Include="B%27s\HammingDistanceSum336.cs" />
