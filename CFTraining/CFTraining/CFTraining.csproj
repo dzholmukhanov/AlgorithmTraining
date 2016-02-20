@@ -42,6 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="8VCVentureCup2016\BlockTowersC.cs" />
+    <Compile Include="8VCVentureCup2016\CardsB.cs" />
+    <Compile Include="8VCVentureCup2016\JerrysProtestD.cs" />
+    <Compile Include="8VCVentureCup2016\RobotSequenceA.cs" />
     <Compile Include="A%27s\Bulbs338.cs" />
     <Compile Include="A%27s\ComparingTwoLongIntegersECR5.cs" />
     <Compile Include="A%27s\Dubstep130.cs" />
@@ -49,16 +53,17 @@
     <Compile Include="A%27s\Expression274.cs" />
     <Compile Include="A%27s\FlashCardsECR3.cs" />
     <Compile Include="A%27s\GuestFromThePast342.cs" />
+    <Compile Include="A%27s\InfiniteSequenceECR7.cs" />
     <Compile Include="A%27s\LinkCutTree339.cs" />
     <Compile Include="A%27s\LLPS127.cs" />
     <Compile Include="A%27s\ProfessorGukiZsRobotECR6.cs" />
     <Compile Include="A%27s\SaitamaDestroysHotel336.cs" />
+    <Compile Include="A%27s\TennisTournamentECR8.cs" />
     <Compile Include="A%27s\TextSplittingECR4.cs" />
     <Compile Include="A%27s\UltraFastMathematician57.cs" />
     <Compile Include="A%27s\UncowedForces334.cs" />
     <Compile Include="A%27s\WetSharkOddEven341.cs" />
     <Compile Include="A%27s\YoungPhysicist63.cs" />
-    <Compile Include="AimTech\ProblemD.cs" />
     <Compile Include="AimTech\ProblemC.cs" />
     <Compile Include="AimTech\ProblemB.cs" />
     <Compile Include="AimTech\ProblemA.cs" />
@@ -66,9 +71,15 @@
     <Compile Include="B%27s\DinnerWithEmmaECR5.cs" />
     <Compile Include="B%27s\GenasCode339.cs" />
     <Compile Include="B%27s\GrandfatherDovletsCalculatorECR6.cs" />
+    <Compile Include="B%27s\NewSkateboardECR8.cs" />
+    <Compile Include="B%27s\TheTimeECR7.cs" />
+    <Compile Include="C%27s\BearAndStringDistanceECR8.cs" />
     <Compile Include="C%27s\KspecialTables342.cs" />
     <Compile Include="C%27s\NotEqualOnSegmentECR7.cs" />
+    <Compile Include="D%27s\OptimalNumberPermutationECR7.cs" />
+    <Compile Include="E%27s\AntsInLeavesECR7.cs" />
     <Compile Include="HackerRank\Candies.cs" />
+    <Compile Include="HackerRank\CounterGame.cs" />
     <Compile Include="HackerRank\Equal.cs" />
     <Compile Include="HackerRank\LongestIncreasingSubsequence.cs" />
     <Compile Include="HackerRank\StockMaximize.cs" />

@@ -14,6 +14,7 @@ using System.Text;
 using System.Threading.Tasks;
 using CFTraining.HackerRank;
 using System.Numerics;
+using CFTraining._8VCVentureCup2016;
 
 namespace CFTraining
 {
@@ -21,7 +22,7 @@ namespace CFTraining
     {
         public static void Main(string[] args)
         {
-            NotEqualOnSegmentECR7.Run();
+            JerrysProtestD.Run();
         }
     }
 }
