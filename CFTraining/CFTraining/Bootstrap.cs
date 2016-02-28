@@ -22,7 +22,7 @@ namespace CFTraining
     {
         public static void Main(string[] args)
         {
-            JerrysProtestD.Run();
+            BricksGame.Run();
         }
     }
 }

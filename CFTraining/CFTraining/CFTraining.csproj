@@ -46,6 +46,7 @@
     <Compile Include="8VCVentureCup2016\CardsB.cs" />
     <Compile Include="8VCVentureCup2016\JerrysProtestD.cs" />
     <Compile Include="8VCVentureCup2016\RobotSequenceA.cs" />
+    <Compile Include="A%27s\BirthdayCake343.cs" />
     <Compile Include="A%27s\Bulbs338.cs" />
     <Compile Include="A%27s\ComparingTwoLongIntegersECR5.cs" />
     <Compile Include="A%27s\Dubstep130.cs" />
@@ -69,6 +70,7 @@
     <Compile Include="AimTech\ProblemA.cs" />
     <Compile Include="B%27s\Chocolate340.cs" />
     <Compile Include="B%27s\DinnerWithEmmaECR5.cs" />
+    <Compile Include="B%27s\FarRelativesProblem343.cs" />
     <Compile Include="B%27s\GenasCode339.cs" />
     <Compile Include="B%27s\GrandfatherDovletsCalculatorECR6.cs" />
     <Compile Include="B%27s\NewSkateboardECR8.cs" />
@@ -78,6 +80,7 @@
     <Compile Include="C%27s\NotEqualOnSegmentECR7.cs" />
     <Compile Include="D%27s\OptimalNumberPermutationECR7.cs" />
     <Compile Include="E%27s\AntsInLeavesECR7.cs" />
+    <Compile Include="HackerRank\BricksGame.cs" />
     <Compile Include="HackerRank\Candies.cs" />
     <Compile Include="HackerRank\CounterGame.cs" />
     <Compile Include="HackerRank\Equal.cs" />
