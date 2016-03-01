@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="Codeforces\8VCVentureCup2016\BlockTowersC.cs" />
     <Compile Include="Codeforces\8VCVentureCup2016\CardsB.cs" />
+    <Compile Include="Codeforces\8VCVentureCup2016\FactoryRepairsD.cs" />
     <Compile Include="Codeforces\8VCVentureCup2016\JerrysProtestD.cs" />
     <Compile Include="Codeforces\8VCVentureCup2016\RobotSequenceA.cs" />
     <Compile Include="Codeforces\A%27s\BirthdayCake343.cs" />

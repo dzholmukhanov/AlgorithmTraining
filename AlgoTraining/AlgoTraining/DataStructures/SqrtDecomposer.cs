@@ -17,6 +17,18 @@ namespace AlgoTraining.Test
             result += val;
         }
     }
+    public class SqrtBoundedSum : SqrtOperator<long>
+    {
+        private long MaxVal;
+        public SqrtBoundedSum(long maxVal)
+        {
+            MaxVal = maxVal;
+        }
+        public void Eval(ref long result, long val)
+        {
+            result += Math.Min(MaxVal, val);
+        }
+    }
     public class SqrtDecomposer<T>
     {
         private T[] Values, Buckets;
@@ -40,6 +52,10 @@ namespace AlgoTraining.Test
                 }
             }
         }
+        public T Get(int index)
+        {
+            return Values[index];
+        }
         public void Update(int index, T val)
         {
             Values[index] = val;
@@ -52,6 +68,8 @@ namespace AlgoTraining.Test
         }
         public T Eval(int l, int r)
         {
+            if (l > r) return default(T);
+
             int lb = l / BucketSize + 1, rb = r / BucketSize - 1;
             T result = default(T);
             if (lb - 1 == rb + 1)
@@ -74,7 +92,7 @@ namespace AlgoTraining.Test
                         Operator.Eval(ref result, Buckets[i]);
                     }
                 }
-                for (int i = BucketSize * (rb + 1); i < r; i++)
+                for (int i = BucketSize * (rb + 1); i <= r; i++)
                 {
                     Operator.Eval(ref result, Values[i]);
                 }
