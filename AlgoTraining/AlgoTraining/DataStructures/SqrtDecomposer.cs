@@ -8,7 +8,7 @@ namespace AlgoTraining.Test
 {
     public interface SqrtOperator<T>
     {
-        void Eval(ref T result, T val); // check of T is null
+        void Eval(ref T result, T val);
     }
     public class SqrtSum : SqrtOperator<long>
     {
@@ -33,11 +33,12 @@ namespace AlgoTraining.Test
     {
         private T[] Values, Buckets;
         private int BucketSize, BucketNum, Count;
-        private SqrtOperator<T> Operator;
-        public SqrtDecomposer(T[] a, SqrtOperator<T> o)
+        private SqrtOperator<T> ValueCombiner, BucketCombiner;
+        public SqrtDecomposer(T[] a, SqrtOperator<T> valueCombiner, SqrtOperator<T> bucketCombiner)
         {
             Values = a;
-            Operator = o;
+            ValueCombiner = valueCombiner;
+            BucketCombiner = bucketCombiner;
             Count = a.Length;
             BucketSize = (int)Math.Ceiling(Math.Sqrt(Count));
             BucketNum = (int)Math.Ceiling((Count * 1.0) / BucketSize);
@@ -48,7 +49,7 @@ namespace AlgoTraining.Test
                 for (int j = 0; j < BucketSize; j++)
                 {
                     if (i * BucketSize + j >= Count) break;
-                    Operator.Eval(ref Buckets[i],  a[i * BucketSize + j]);
+                    ValueCombiner.Eval(ref Buckets[i], a[i * BucketSize + j]);
                 }
             }
         }
@@ -63,7 +64,7 @@ namespace AlgoTraining.Test
             Buckets[bucket] = default(T);
             for (int i = bucket * BucketSize; i < Math.Min(Count, (bucket + 1) * BucketSize); i++)
             {
-                Operator.Eval(ref Buckets[bucket], Values[i]);
+                ValueCombiner.Eval(ref Buckets[bucket], Values[i]);
             }
         }
         public T Eval(int l, int r)
@@ -76,25 +77,25 @@ namespace AlgoTraining.Test
             {
                 for (int i = l; i <= r; i++)
                 {
-                    Operator.Eval(ref result, Values[i]);
+                    ValueCombiner.Eval(ref result, Values[i]);
                 }
             }
             else
             {
                 for (int i = l; i < BucketSize * lb; i++)
                 {
-                    Operator.Eval(ref result, Values[i]);
+                    ValueCombiner.Eval(ref result, Values[i]);
                 }
                 if (lb <= rb)
                 {
                     for (int i = lb; i <= rb; i++)
                     {
-                        Operator.Eval(ref result, Buckets[i]);
+                        BucketCombiner.Eval(ref result, Buckets[i]);
                     }
                 }
                 for (int i = BucketSize * (rb + 1); i <= r; i++)
                 {
-                    Operator.Eval(ref result, Values[i]);
+                    ValueCombiner.Eval(ref result, Values[i]);
                 }
             }
             return result;

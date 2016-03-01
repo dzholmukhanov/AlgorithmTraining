@@ -13,13 +13,12 @@ namespace AlgoTraining.Codeforces._8VCVentureCup2016
     {
         public static void Run()
         {
-            // not solved
             using (FastScanner fs = new FastScanner(new BufferedStream(Console.OpenStandardInput())))
             using (StreamWriter writer = new StreamWriter(new BufferedStream(Console.OpenStandardOutput())))
             {
                 int n = fs.NextInt(), k = fs.NextInt(), a = fs.NextInt(), b = fs.NextInt(), q = fs.NextInt();
-                SqrtDecomposer<long> adec = new SqrtDecomposer<long>(Enumerable.Repeat<long>(0, n).ToArray(), new SqrtBoundedSum(a));
-                SqrtDecomposer<long> bdec = new SqrtDecomposer<long>(Enumerable.Repeat<long>(0, n).ToArray(), new SqrtBoundedSum(b));
+                SqrtDecomposer<long> adec = new SqrtDecomposer<long>(Enumerable.Repeat<long>(0, n).ToArray(), new SqrtBoundedSum(a), new SqrtSum());
+                SqrtDecomposer<long> bdec = new SqrtDecomposer<long>(Enumerable.Repeat<long>(0, n).ToArray(), new SqrtBoundedSum(b), new SqrtSum());
                 while (q-- > 0)
                 {
                     int cmd = fs.NextInt();
