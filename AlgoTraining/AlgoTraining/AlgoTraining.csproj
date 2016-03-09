@@ -45,8 +45,11 @@
     <Compile Include="Codeforces\8VCVentureCup2016\BlockTowersC.cs" />
     <Compile Include="Codeforces\8VCVentureCup2016\CardsB.cs" />
     <Compile Include="Codeforces\8VCVentureCup2016\FactoryRepairsD.cs" />
+    <Compile Include="Codeforces\8VCVentureCup2016\IslandPuzzleB.cs" />
     <Compile Include="Codeforces\8VCVentureCup2016\JerrysProtestD.cs" />
+    <Compile Include="Codeforces\8VCVentureCup2016\OrchestraA.cs" />
     <Compile Include="Codeforces\8VCVentureCup2016\RobotSequenceA.cs" />
+    <Compile Include="Codeforces\8VCVentureCup2016\Test.cs" />
     <Compile Include="Codeforces\A%27s\BirthdayCake343.cs" />
     <Compile Include="Codeforces\A%27s\Bulbs338.cs" />
     <Compile Include="Codeforces\A%27s\ComparingTwoLongIntegersECR5.cs" />
@@ -56,6 +59,7 @@
     <Compile Include="Codeforces\A%27s\FlashCardsECR3.cs" />
     <Compile Include="Codeforces\A%27s\GuestFromThePast342.cs" />
     <Compile Include="Codeforces\A%27s\InfiniteSequenceECR7.cs" />
+    <Compile Include="Codeforces\A%27s\Interview344.cs" />
     <Compile Include="Codeforces\A%27s\LinkCutTree339.cs" />
     <Compile Include="Codeforces\A%27s\LLPS127.cs" />
     <Compile Include="Codeforces\A%27s\ProfessorGukiZsRobotECR6.cs" />
@@ -75,10 +79,12 @@
     <Compile Include="Codeforces\B%27s\GenasCode339.cs" />
     <Compile Include="Codeforces\B%27s\GrandfatherDovletsCalculatorECR6.cs" />
     <Compile Include="Codeforces\B%27s\NewSkateboardECR8.cs" />
+    <Compile Include="Codeforces\B%27s\PrintCheck344.cs" />
     <Compile Include="Codeforces\B%27s\TheTimeECR7.cs" />
     <Compile Include="Codeforces\C%27s\BearAndStringDistanceECR8.cs" />
     <Compile Include="Codeforces\C%27s\KspecialTables342.cs" />
     <Compile Include="Codeforces\C%27s\NotEqualOnSegmentECR7.cs" />
+    <Compile Include="Codeforces\C%27s\Report344.cs" />
     <Compile Include="Codeforces\D%27s\OptimalNumberPermutationECR7.cs" />
     <Compile Include="Codeforces\E%27s\AntsInLeavesECR7.cs" />
     <Compile Include="HackerRank\BricksGame.cs" />
