@@ -37,7 +37,7 @@ namespace AlgoTraining.Codeforces.D_s
                     long value = tree.QueryMax(0, indices[i] - 1) + a[i];
                     tree.Update(indices[i], indices[i], value);
                 }
-                writer.WriteLine(tree.QueryMax(0, n - 1) * Math.PI);
+                writer.WriteLine((tree.QueryMax(0, n - 1) * Math.PI).ToString().Replace(',', '.'));
             }
         }
         public static int findValue(long[] a, int l, int r, long val)
@@ -133,7 +133,7 @@ namespace AlgoTraining.Codeforces.D_s
                 int mid = (l + r) / 2;
                 Update(ql, qr, l, mid, pos * 2 + 1, value);
                 Update(ql, qr, mid + 1, r, pos * 2 + 2, value);
-                _tree[pos] = Math.Max(_tree[pos * 2 + 1], _tree[pos * 2 + 1]);
+                _tree[pos] = Math.Max(_tree[pos * 2 + 1], _tree[pos * 2 + 2]);
             }
         }
     }

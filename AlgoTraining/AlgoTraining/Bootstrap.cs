@@ -25,7 +25,7 @@ namespace CFTraining
     {
         public static void Main(string[] args)
         {
-            BabaeiAndBirthdayCake343.Run();
+            XorEquationC.Run();
         }
     }
 }

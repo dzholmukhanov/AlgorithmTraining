@@ -95,7 +95,7 @@ namespace CFTraining.DataStructures
                 int mid = (l + r) / 2;
                 Update(ql, qr, l, mid, pos * 2 + 1, value);
                 Update(ql, qr, mid + 1, r, pos * 2 + 2, value);
-                _tree[pos] = Math.Min(_tree[pos * 2 + 1], _tree[pos * 2 + 1]);
+                _tree[pos] = Math.Min(_tree[pos * 2 + 1], _tree[pos * 2 + 2]);
             }
         }
     }
