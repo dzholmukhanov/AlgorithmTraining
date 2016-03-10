@@ -17,6 +17,7 @@ using System.Numerics;
 using CFTraining._8VCVentureCup2016;
 using AlgoTraining.Test;
 using AlgoTraining.Codeforces._8VCVentureCup2016;
+using AlgoTraining.Codeforces.D_s;
 
 namespace CFTraining
 {
@@ -24,7 +25,7 @@ namespace CFTraining
     {
         public static void Main(string[] args)
         {
-            FactoryRepairsD.Run();
+            LittleElephantAndArray136.Run();
         }
     }
 }
