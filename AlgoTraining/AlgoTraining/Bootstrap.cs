@@ -25,7 +25,7 @@ namespace CFTraining
     {
         public static void Main(string[] args)
         {
-            LittleElephantAndArray136.Run();
+            BabaeiAndBirthdayCake343.Run();
         }
     }
 }
