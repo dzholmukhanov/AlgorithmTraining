@@ -50,6 +50,7 @@
     <Compile Include="Codeforces\8VCVentureCup2016\OrchestraA.cs" />
     <Compile Include="Codeforces\8VCVentureCup2016\RobotSequenceA.cs" />
     <Compile Include="Codeforces\8VCVentureCup2016\Test.cs" />
+    <Compile Include="Codeforces\8VCVentureCup2016\XorEquationC.cs" />
     <Compile Include="Codeforces\A%27s\BirthdayCake343.cs" />
     <Compile Include="Codeforces\A%27s\Bulbs338.cs" />
     <Compile Include="Codeforces\A%27s\ComparingTwoLongIntegersECR5.cs" />
@@ -85,6 +86,8 @@
     <Compile Include="Codeforces\C%27s\BearAndStringDistanceECR8.cs" />
     <Compile Include="Codeforces\C%27s\KspecialTables342.cs" />
     <Compile Include="Codeforces\C%27s\NotEqualOnSegmentECR7.cs" />
+    <Compile Include="Codeforces\D%27s\BabaeiAndBirthdayCake343.cs" />
+    <Compile Include="Codeforces\D%27s\LittleElephantAndArray136.cs" />
     <Compile Include="Codeforces\C%27s\Report344.cs" />
     <Compile Include="Codeforces\C%27s\SmallestStringConcatenationECR9.cs" />
     <Compile Include="Codeforces\C%27s\Watchmen345.cs" />
