@@ -57,6 +57,7 @@
     <Compile Include="Codeforces\A%27s\Elephant340.cs" />
     <Compile Include="Codeforces\A%27s\Expression274.cs" />
     <Compile Include="Codeforces\A%27s\FlashCardsECR3.cs" />
+    <Compile Include="Codeforces\A%27s\GrandmaLauraAndApplesECR9.cs" />
     <Compile Include="Codeforces\A%27s\GuestFromThePast342.cs" />
     <Compile Include="Codeforces\A%27s\InfiniteSequenceECR7.cs" />
     <Compile Include="Codeforces\A%27s\Interview344.cs" />
@@ -85,6 +86,9 @@
     <Compile Include="Codeforces\C%27s\KspecialTables342.cs" />
     <Compile Include="Codeforces\C%27s\NotEqualOnSegmentECR7.cs" />
     <Compile Include="Codeforces\C%27s\Report344.cs" />
+    <Compile Include="Codeforces\C%27s\SmallestStringConcatenationECR9.cs" />
+    <Compile Include="Codeforces\C%27s\Watchmen345.cs" />
+    <Compile Include="Codeforces\D%27s\ImagePreview345.cs" />
     <Compile Include="Codeforces\D%27s\OptimalNumberPermutationECR7.cs" />
     <Compile Include="Codeforces\E%27s\AntsInLeavesECR7.cs" />
     <Compile Include="HackerRank\BricksGame.cs" />

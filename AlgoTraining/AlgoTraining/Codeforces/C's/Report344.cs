@@ -12,10 +12,9 @@ namespace AlgoTraining.Codeforces.C_s
     // not solved
     class ReverseComparer : IComparer<int>
     {
-        // Call CaseInsensitiveComparer.Compare with the parameters reversed.
         public int Compare(int x, int y)
         {
-            return y - x;
+            return x < y ? 1 : x > y ? -1 : 0;
         }
     }
     class Report344
@@ -38,7 +37,7 @@ namespace AlgoTraining.Codeforces.C_s
                     managers.Add(new Manager { Id = i, R = r, T = t });
                 }
                 managers = managers.OrderByDescending(x => x.R).ToList();
-                bool[] ig = new bool[m];
+                bool[] ignore = new bool[m];
                 int lastId = managers[0].Id;
                 int lastT = managers[0].T;
                 for (int i = 1; i < m; i++)
@@ -46,13 +45,13 @@ namespace AlgoTraining.Codeforces.C_s
                     if (managers[i].Id > lastId)
                     {
                         lastId = managers[i].Id;
+                        if (managers[i].T != lastT)
+                        {
+                            lastT = managers[i].T;
+                        }
+                        else ignore[managers[i].Id] = true;
                     }
-                    else ig[i] = true;
-                    if (managers[i].T != lastT)
-                    {
-                        lastT = managers[i].T;
-                    }
-                    else ig[i] = true;
+                    else ignore[managers[i].Id] = true;
                 }
                 ReverseComparer revComparer = new ReverseComparer();
 
@@ -60,24 +59,24 @@ namespace AlgoTraining.Codeforces.C_s
                 else Array.Sort(a, 0, managers[0].R, revComparer);
                 int[] b = a.ToArray();
 
-                int left = 0, right = managers[0].R - 1;
+                int left = 0, right = managers[0].R - 1, pointer = right;
                 bool fromLeft = false;
                 for (int i = 1; i < m; i++)
                 {
-                    if (ig[i]) continue;
-                    for (int j = right; j >= managers[i].R; j--)
+                    if (ignore[managers[i].Id]) continue;
+                    for (int j = pointer; j >= managers[i].R; j--)
                     {
                         if (fromLeft) {
-                            a[j] = b[left++];
+                            a[pointer--] = b[left++];
                         }
                         else
                         {
-                            a[j] = b[right--];
+                            a[pointer--] = b[right--];
                         }
                     }
                     fromLeft = !fromLeft;
                 }
-                for (int j = right; j >= 0; j--)
+                for (int j = pointer; j >= 0; j--)
                 {
                     if (fromLeft)
                     {

@@ -17,6 +17,9 @@ using System.Numerics;
 using CFTraining._8VCVentureCup2016;
 using AlgoTraining.Test;
 using AlgoTraining.Codeforces._8VCVentureCup2016;
+using AlgoTraining.Codeforces.C_s;
+using AlgoTraining.Codeforces.A_s;
+using AlgoTraining.Codeforces.D_s;
 
 namespace CFTraining
 {
@@ -24,7 +27,7 @@ namespace CFTraining
     {
         public static void Main(string[] args)
         {
-            FactoryRepairsD.Run();
+            ImagePreview345.Run();
         }
     }
 }
