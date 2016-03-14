@@ -18,6 +18,7 @@ using CFTraining._8VCVentureCup2016;
 using AlgoTraining.Test;
 using AlgoTraining.Codeforces._8VCVentureCup2016;
 using AlgoTraining.Codeforces.D_s;
+using AlgoTraining.Codeforces.VkCup2016;
 
 namespace CFTraining
 {
@@ -25,7 +26,7 @@ namespace CFTraining
     {
         public static void Main(string[] args)
         {
-            XorEquationC.Run();
+            ChatOrderB.Run();
         }
     }
 }
