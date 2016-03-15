@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algorithms\Zfunction.cs" />
     <Compile Include="Codeforces\8VCVentureCup2016\BlockTowersC.cs" />
     <Compile Include="Codeforces\8VCVentureCup2016\CardsB.cs" />
     <Compile Include="Codeforces\8VCVentureCup2016\FactoryRepairsD.cs" />
@@ -96,6 +97,7 @@
     <Compile Include="Codeforces\E%27s\AntsInLeavesECR7.cs" />
     <Compile Include="Codeforces\VkCup2016\ChatOrderB.cs" />
     <Compile Include="Codeforces\VkCup2016\PhotoLikesA.cs" />
+    <Compile Include="Codeforces\VkCup2016\RunningWithObstaclesD.cs" />
     <Compile Include="Codeforces\VkCup2016\WrongPromocodesC.cs" />
     <Compile Include="HackerRank\BricksGame.cs" />
     <Compile Include="HackerRank\Candies.cs" />
