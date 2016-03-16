@@ -27,7 +27,7 @@ namespace CFTraining
     {
         public static void Main(string[] args)
         {
-            Zfunction.Run();
+            Messenger344.Run();
         }
     }
 }
