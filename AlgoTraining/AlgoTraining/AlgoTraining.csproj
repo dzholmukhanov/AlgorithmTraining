@@ -87,6 +87,9 @@
     <Compile Include="Codeforces\C%27s\BearAndStringDistanceECR8.cs" />
     <Compile Include="Codeforces\C%27s\KspecialTables342.cs" />
     <Compile Include="Codeforces\C%27s\NotEqualOnSegmentECR7.cs" />
+    <Compile Include="Codeforces\Croc2016\HostnameAliasesC.cs" />
+    <Compile Include="Codeforces\Croc2016\ParliamentOfBerlandA.cs" />
+    <Compile Include="Codeforces\Croc2016\ProcessingQueriesB.cs" />
     <Compile Include="Codeforces\D%27s\BabaeiAndBirthdayCake343.cs" />
     <Compile Include="Codeforces\D%27s\LittleElephantAndArray136.cs" />
     <Compile Include="Codeforces\C%27s\Report344.cs" />
