@@ -99,6 +99,9 @@
     <Compile Include="Codeforces\D%27s\Messenger344.cs" />
     <Compile Include="Codeforces\D%27s\OptimalNumberPermutationECR7.cs" />
     <Compile Include="Codeforces\E%27s\AntsInLeavesECR7.cs" />
+    <Compile Include="Codeforces\VkCup2016\BearAndDisplayedFriendsB.cs" />
+    <Compile Include="Codeforces\VkCup2016\BearAndForgottenTree3C.cs" />
+    <Compile Include="Codeforces\VkCup2016\BearReverseRadewooshA.cs" />
     <Compile Include="Codeforces\VkCup2016\ChatOrderB.cs" />
     <Compile Include="Codeforces\VkCup2016\PhotoLikesA.cs" />
     <Compile Include="Codeforces\VkCup2016\RunningWithObstaclesD.cs" />

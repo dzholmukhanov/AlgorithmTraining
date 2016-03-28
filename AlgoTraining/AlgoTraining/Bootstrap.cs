@@ -29,7 +29,7 @@ namespace CFTraining
     {
         public static void Main(string[] args)
         {
-            HostnameAliasesC.Run();
+            BearAndForgottenTree3C.Run();
         }
     }
 }
