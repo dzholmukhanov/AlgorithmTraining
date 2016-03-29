@@ -22,6 +22,7 @@ using AlgoTraining.Codeforces.D_s;
 using AlgoTraining.Codeforces.VkCup2016;
 using AlgoTraining.Algorithms;
 using AlgoTraining.Codeforces.Croc2016;
+using AlgoTraining.Codeforces.C_s;
 
 namespace CFTraining
 {
@@ -29,7 +30,7 @@ namespace CFTraining
     {
         public static void Main(string[] args)
         {
-            BearAndForgottenTree3C.Run();
+            NestedSegmentsECR10.Run();
         }
     }
 }
