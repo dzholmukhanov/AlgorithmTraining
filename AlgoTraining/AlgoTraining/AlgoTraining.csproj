@@ -92,6 +92,7 @@
     <Compile Include="Codeforces\Croc2016\ParliamentOfBerlandA.cs" />
     <Compile Include="Codeforces\Croc2016\ProcessingQueriesB.cs" />
     <Compile Include="Codeforces\D%27s\BabaeiAndBirthdayCake343.cs" />
+    <Compile Include="Codeforces\D%27s\BicycleRace346.cs" />
     <Compile Include="Codeforces\D%27s\LittleElephantAndArray136.cs" />
     <Compile Include="Codeforces\C%27s\Report344.cs" />
     <Compile Include="Codeforces\C%27s\SmallestStringConcatenationECR9.cs" />
@@ -101,6 +102,7 @@
     <Compile Include="Codeforces\D%27s\NestedSegmentsECR10.cs" />
     <Compile Include="Codeforces\D%27s\OptimalNumberPermutationECR7.cs" />
     <Compile Include="Codeforces\E%27s\AntsInLeavesECR7.cs" />
+    <Compile Include="Codeforces\E%27s\NewReform346.cs" />
     <Compile Include="Codeforces\VkCup2016\BearAndDisplayedFriendsB.cs" />
     <Compile Include="Codeforces\VkCup2016\BearAndForgottenTree3C.cs" />
     <Compile Include="Codeforces\VkCup2016\BearReverseRadewooshA.cs" />
