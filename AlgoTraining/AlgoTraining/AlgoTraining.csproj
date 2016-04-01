@@ -101,6 +101,7 @@
     <Compile Include="Codeforces\D%27s\Messenger344.cs" />
     <Compile Include="Codeforces\D%27s\NestedSegmentsECR10.cs" />
     <Compile Include="Codeforces\D%27s\OptimalNumberPermutationECR7.cs" />
+    <Compile Include="Codeforces\D%27s\RoadsNotOnlyInBerland25.cs" />
     <Compile Include="Codeforces\E%27s\AntsInLeavesECR7.cs" />
     <Compile Include="Codeforces\E%27s\NewReform346.cs" />
     <Compile Include="Codeforces\VkCup2016\BearAndDisplayedFriendsB.cs" />
@@ -110,6 +111,7 @@
     <Compile Include="Codeforces\VkCup2016\PhotoLikesA.cs" />
     <Compile Include="Codeforces\VkCup2016\RunningWithObstaclesD.cs" />
     <Compile Include="Codeforces\VkCup2016\WrongPromocodesC.cs" />
+    <Compile Include="DataStructures\DisjointSet.cs" />
     <Compile Include="HackerRank\BricksGame.cs" />
     <Compile Include="HackerRank\Candies.cs" />
     <Compile Include="HackerRank\Equal.cs" />

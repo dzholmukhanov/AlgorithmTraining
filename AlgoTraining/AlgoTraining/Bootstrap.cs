@@ -24,6 +24,7 @@ using AlgoTraining.Algorithms;
 using AlgoTraining.Codeforces.Croc2016;
 using AlgoTraining.Codeforces.C_s;
 using AlgoTraining.Codeforces.E_s;
+using AlgoTraining.DataStructures;
 
 namespace CFTraining
 {
@@ -31,7 +32,7 @@ namespace CFTraining
     {
         public static void Main(string[] args)
         {
-            BicycleRace346.Run();
+            RoadsNotOnlyInBerland25.Run();
         }
     }
 }
