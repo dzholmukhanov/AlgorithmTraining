@@ -66,6 +66,7 @@
     <Compile Include="Codeforces\A%27s\LinkCutTree339.cs" />
     <Compile Include="Codeforces\A%27s\LLPS127.cs" />
     <Compile Include="Codeforces\A%27s\ProfessorGukiZsRobotECR6.cs" />
+    <Compile Include="Codeforces\A%27s\RoundHouse346.cs" />
     <Compile Include="Codeforces\A%27s\SaitamaDestroysHotel336.cs" />
     <Compile Include="Codeforces\A%27s\TennisTournamentECR8.cs" />
     <Compile Include="Codeforces\A%27s\TextSplittingECR4.cs" />
@@ -76,6 +77,10 @@
     <Compile Include="Codeforces\AimTech\ProblemC.cs" />
     <Compile Include="Codeforces\AimTech\ProblemB.cs" />
     <Compile Include="Codeforces\AimTech\ProblemA.cs" />
+    <Compile Include="Codeforces\AprilFool2016\DaVinciPowersA.cs" />
+    <Compile Include="Codeforces\AprilFool2016\ScrambledB.cs" />
+    <Compile Include="Codeforces\AprilFool2016\WithoutTextC.cs" />
+    <Compile Include="Codeforces\AprilFool2016\YouAreProfessionalG.cs" />
     <Compile Include="Codeforces\B%27s\Chocolate340.cs" />
     <Compile Include="Codeforces\B%27s\DinnerWithEmmaECR5.cs" />
     <Compile Include="Codeforces\B%27s\FarRelativesProblem343.cs" />
@@ -83,10 +88,12 @@
     <Compile Include="Codeforces\B%27s\GrandfatherDovletsCalculatorECR6.cs" />
     <Compile Include="Codeforces\B%27s\NewSkateboardECR8.cs" />
     <Compile Include="Codeforces\B%27s\PrintCheck344.cs" />
+    <Compile Include="Codeforces\B%27s\QualifyingContest346.cs" />
     <Compile Include="Codeforces\B%27s\TheTimeECR7.cs" />
     <Compile Include="Codeforces\C%27s\BearAndStringDistanceECR8.cs" />
     <Compile Include="Codeforces\C%27s\KspecialTables342.cs" />
     <Compile Include="Codeforces\C%27s\NotEqualOnSegmentECR7.cs" />
+    <Compile Include="Codeforces\C%27s\TanyaAndToys346.cs" />
     <Compile Include="Codeforces\Croc2016\HostnameAliasesC.cs" />
     <Compile Include="Codeforces\Croc2016\ParliamentOfBerlandA.cs" />
     <Compile Include="Codeforces\Croc2016\ProcessingQueriesB.cs" />
@@ -99,6 +106,8 @@
     <Compile Include="Codeforces\D%27s\Messenger344.cs" />
     <Compile Include="Codeforces\D%27s\OptimalNumberPermutationECR7.cs" />
     <Compile Include="Codeforces\E%27s\AntsInLeavesECR7.cs" />
+    <Compile Include="Codeforces\E%27s\NewReform346.cs" />
+    <Compile Include="Codeforces\F%27s\PolycarpAndHay346.cs" />
     <Compile Include="Codeforces\VkCup2016\BearAndDisplayedFriendsB.cs" />
     <Compile Include="Codeforces\VkCup2016\BearAndForgottenTree3C.cs" />
     <Compile Include="Codeforces\VkCup2016\BearReverseRadewooshA.cs" />
