@@ -16,51 +16,43 @@ namespace AlgoTraining.Codeforces.E_s
             using (StreamWriter writer = new StreamWriter(new BufferedStream(Console.OpenStandardOutput())))
             {
                 int n = fs.NextInt(), m = fs.NextInt();
-                LinkedList<Edge>[] adj = new LinkedList<Edge>[n];
+                LinkedList<int>[] adj = new LinkedList<int>[n];
                 for (int i = 0; i < n; i++)
                 {
-                    adj[i] = new LinkedList<Edge>();
+                    adj[i] = new LinkedList<int>();
                 }
                 for (int i = 0; i < m; i++)
                 {
                     int u = fs.NextInt() - 1, v = fs.NextInt() - 1;
-                    adj[u].AddLast(new Edge { Id = i, V = v});
-                    adj[v].AddLast(new Edge { Id = i, V = u });
+                    adj[u].AddLast(v);
+                    adj[v].AddLast(u);
                 }
-                bool[] visited = new bool[n], reached = new bool[n], used = new bool[m];
-                for (int i = 0; i < n; i++)
-                {
-                    if (!visited[i]) DFS(i, visited, reached, used, adj);
-                }
+                bool[] visited = new bool[n];
                 int ans = 0;
                 for (int i = 0; i < n; i++)
                 {
-                    if (!reached[i]) ans++;
+                    if (!visited[i]) ans += DFS(i, visited, adj, -1);
                 }
                 writer.WriteLine(ans);
             }
         }
-
-        private static void DFS(int i, bool[] visited, bool[] reached, bool[] used, LinkedList<Edge>[] adj)
+        private static int DFS(int i, bool[] visited, LinkedList<int>[] adj, int prev)
         {
             visited[i] = true;
-            foreach (Edge edge in adj[i])
+            int ans = 1;
+            foreach (int j in adj[i])
             {
-                if (!visited[edge.V])
+                if (!visited[j])
                 {
-                    reached[edge.V] = true;
-                    used[edge.Id] = true;
-                    DFS(edge.V, visited, reached, used, adj);
+                    int t = DFS(j, visited, adj, i);
+                    if (ans == 1 && t == 0) ans = 0;
                 }
                 else
                 {
-                    if (!used[edge.Id] && !reached[edge.V]) reached[edge.V] = true;
+                    if (j != prev) ans = 0;
                 }
             }
+            return ans;
         }
-    }
-    class Edge
-    {
-        public int Id, V;
     }
 }
