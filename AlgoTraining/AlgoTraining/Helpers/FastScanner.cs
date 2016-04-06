@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CFTraining.Helpers
 {
-    class FastScanner : StreamReader
+    public class FastScanner : StreamReader
     {
         private string[] _line;
         private int _iterator;
