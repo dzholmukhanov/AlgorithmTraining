@@ -111,6 +111,7 @@
     <Compile Include="Codeforces\D%27s\RoadsNotOnlyInBerland25.cs" />
     <Compile Include="Codeforces\E%27s\AntsInLeavesECR7.cs" />
     <Compile Include="Codeforces\E%27s\NewReform346.cs" />
+    <Compile Include="Codeforces\E%27s\TableCompression345.cs" />
     <Compile Include="Codeforces\F%27s\PolycarpAndHay346.cs" />
     <Compile Include="Codeforces\VkCup2016\BearAndDisplayedFriendsB.cs" />
     <Compile Include="Codeforces\VkCup2016\BearAndForgottenTree3C.cs" />
