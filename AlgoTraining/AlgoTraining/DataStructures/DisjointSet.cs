@@ -13,7 +13,7 @@ namespace AlgoTraining.DataStructures
         private int TotalSetCount;
         public DisjointSet()
         {
-            MaxVal = (int)1e7;
+            MaxVal = (int)1e6;
             Parent = Enumerable.Repeat(-1, MaxVal).ToArray();
             Rank = new int[MaxVal];
             Count = new int[MaxVal];
