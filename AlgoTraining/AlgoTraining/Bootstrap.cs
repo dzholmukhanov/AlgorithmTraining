@@ -30,7 +30,7 @@ namespace CFTraining
     {
         public static void Main(string[] args)
         {
-            TableCompression345.Run();
+            NumberOfParallelogramsECR11.Run();
         }
     }
 }
