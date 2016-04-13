@@ -100,6 +100,7 @@
     <Compile Include="Codeforces\Croc2016\ProcessingQueriesB.cs" />
     <Compile Include="Codeforces\D%27s\BabaeiAndBirthdayCake343.cs" />
     <Compile Include="Codeforces\D%27s\BicycleRace346.cs" />
+    <Compile Include="Codeforces\D%27s\LazyStudent335.cs" />
     <Compile Include="Codeforces\D%27s\LittleElephantAndArray136.cs" />
     <Compile Include="Codeforces\C%27s\Report344.cs" />
     <Compile Include="Codeforces\C%27s\SmallestStringConcatenationECR9.cs" />

@@ -30,7 +30,7 @@ namespace CFTraining
     {
         public static void Main(string[] args)
         {
-            NumberOfParallelogramsECR11.Run();
+            LazyStudent335.Run();
         }
     }
 }
