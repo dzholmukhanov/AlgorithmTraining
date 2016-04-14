@@ -18,19 +18,21 @@ namespace AlgoTraining.Codeforces.D_s
                 int n = fs.NextInt();
                 int m = fs.NextInt();
                 Edge[] edges = new Edge[m];
+                string[] ans = new string[m];
                 for (int i = 0; i < m; i++)
                 {
-                    edges[i] = new Edge { Weight = fs.NextInt(), IsInMST = fs.NextInt() == 1 };
+                    edges[i] = new Edge { Id = i, Weight = fs.NextInt(), IsInMST = fs.NextInt() == 1 };
                 }
-                edges = edges.OrderBy(e => e.Weight).ToArray();
+                edges = edges.OrderBy(e => e.Weight).ThenByDescending(e => e.IsInMST).ToArray();
 
-                long inMst = 0, notInMst = 0;
-                StringBuilder sb = new StringBuilder();
+                long inMst = 0;
+                long notInMst = 0;
+                List<EdgeOcc> edgeOccs = new List<EdgeOcc>();
                 foreach (Edge e in edges)
                 {
                     if (e.IsInMST)
                     {
-                        sb.Append((inMst + 1) + " " + (inMst + 2) + "\n");
+                        ans[e.Id] = (inMst + 1) + " " + (inMst + 2);
                         inMst++;
                     }
                     else
@@ -41,22 +43,44 @@ namespace AlgoTraining.Codeforces.D_s
                             writer.WriteLine(-1);
                             return;
                         }
+                        else
+                        {
+                            edgeOccs.Add(new EdgeOcc { VertexCount = inMst + 1, Edge = e });
+                        }
                     }
                 }
-                for (int i = 1; i <= n && notInMst > 0; i++)
+                long p = inMst + 1;
+                long q = p - 2;
+                for (int i = edgeOccs.Count - 1; i >= 0; i--)
                 {
-                    for (int j = i + 2; j <= n && notInMst > 0; j++)
+                    while (edgeOccs[i].VertexCount < p)
                     {
-                        sb.Append(i + " " + j + "\n");
-                        notInMst--;
+                        p--;
+                        q = p - 2;
+                    }
+                    ans[edgeOccs[i].Edge.Id] = q + " " + p;
+                    q--;
+                    if (q <= 0)
+                    {
+                        p--;
+                        q = p - 2;
                     }
                 }
-                writer.WriteLine(sb);
+                for (int i = 0; i < m; i++)
+                {
+                    writer.WriteLine(ans[i]);
+                }
             }
         }
     }
+    class EdgeOcc
+    {
+        public long VertexCount;
+        public Edge Edge;
+    }
     class Edge
     {
+        public int Id;
         public int Weight;
         public bool IsInMST;
     }
