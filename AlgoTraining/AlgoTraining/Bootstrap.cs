@@ -30,7 +30,7 @@ namespace CFTraining
     {
         public static void Main(string[] args)
         {
-            LazyStudent335.Run();
+            RoadImprovementC.Run();
         }
     }
 }
