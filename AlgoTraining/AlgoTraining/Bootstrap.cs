@@ -23,6 +23,7 @@ using AlgoTraining.Codeforces.VkCup2016;
 using AlgoTraining.Algorithms;
 using AlgoTraining.Codeforces.Croc2016;
 using AlgoTraining.Codeforces.E_s;
+using AlgoTraining.Codeforces.B_s;
 
 namespace CFTraining
 {
@@ -30,7 +31,7 @@ namespace CFTraining
     {
         public static void Main(string[] args)
         {
-            RoadImprovementC.Run();
+            Rebus347.Run();
         }
     }
 }

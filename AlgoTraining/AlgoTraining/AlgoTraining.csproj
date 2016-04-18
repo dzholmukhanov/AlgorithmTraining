@@ -89,6 +89,7 @@
     <Compile Include="Codeforces\B%27s\NewSkateboardECR8.cs" />
     <Compile Include="Codeforces\B%27s\PrintCheck344.cs" />
     <Compile Include="Codeforces\B%27s\QualifyingContest346.cs" />
+    <Compile Include="Codeforces\B%27s\Rebus347.cs" />
     <Compile Include="Codeforces\B%27s\TheTimeECR7.cs" />
     <Compile Include="Codeforces\C%27s\BearAndStringDistanceECR8.cs" />
     <Compile Include="Codeforces\C%27s\FoePairsECR10.cs" />
