@@ -94,6 +94,7 @@
     <Compile Include="Codeforces\C%27s\BearAndStringDistanceECR8.cs" />
     <Compile Include="Codeforces\C%27s\FoePairsECR10.cs" />
     <Compile Include="Codeforces\C%27s\HardProcessECR11.cs" />
+    <Compile Include="Codeforces\C%27s\InternationalOlympiad347.cs" />
     <Compile Include="Codeforces\C%27s\KspecialTables342.cs" />
     <Compile Include="Codeforces\C%27s\NotEqualOnSegmentECR7.cs" />
     <Compile Include="Codeforces\C%27s\TanyaAndToys346.cs" />
