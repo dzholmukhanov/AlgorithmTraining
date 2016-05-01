@@ -24,6 +24,8 @@ using AlgoTraining.Algorithms;
 using AlgoTraining.Codeforces.Croc2016;
 using AlgoTraining.Codeforces.E_s;
 using AlgoTraining.Codeforces.B_s;
+using AlgoTraining.Codeforces.A_s;
+using AlgoTraining.Codeforces.C_s;
 
 namespace CFTraining
 {
@@ -31,7 +33,7 @@ namespace CFTraining
     {
         public static void Main(string[] args)
         {
-            Rebus347.Run();
+            SimpleSubsetECR12.Run();
         }
     }
 }
