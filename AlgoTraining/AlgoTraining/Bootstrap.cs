@@ -32,7 +32,7 @@ namespace CFTraining
     {
         public static void Main(string[] args)
         {
-            InternationalOlympiad347.Run();
+            ReberlandLinguistics349.Run();
         }
     }
 }
