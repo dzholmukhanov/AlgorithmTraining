@@ -11,37 +11,51 @@ namespace AlgoTraining.Codeforces.C_s
     // Not solved yet
     class ReberlandLinguistics349
     {
+        private static SortedSet<string> _set = new SortedSet<string>();
+        private static HashSet<string> _tempSet = new HashSet<string>();
+        private static string _str;
+        private static bool[] solved;
         public static void Run()
         {
             using (FastScanner fs = new FastScanner(new BufferedStream(Console.OpenStandardInput())))
             using (StreamWriter writer = new StreamWriter(new BufferedStream(Console.OpenStandardOutput())))
             {
-                string s = fs.ReadLine();
-                SortedSet<string> set = new SortedSet<string>();
-                if (s.Length > 6)
+                _str = fs.ReadLine();
+                solved = new bool[_str.Length];
+                Find(_str.Length - 1);
+                writer.WriteLine(_set.Count);
+                foreach (string suffix in _set)
                 {
-                    for (int i = 6; i < s.Length; i++)
-                    {
-                        if (i == s.Length - 2) continue;
-                        string temp = s.Substring(i - 1, 2);
-                        if (!set.Contains(temp)) set.Add(temp);
-                        if (i - 2 > 4)
-                        {
-                            temp = s.Substring(i - 2, 3);
-                            if (!set.Contains(temp)) set.Add(temp);
-                        }
-                    }
-                    writer.WriteLine(set.Count);
-                    foreach (string suffix in set) 
-                    {
-                        writer.WriteLine(suffix);
-                    }
-                }
-                else
-                {
-                    writer.WriteLine(0);
+                    writer.WriteLine(suffix);
                 }
             }
+        }
+        public static void Find(int i)
+        {
+            if (solved[i]) return;
+            if (i - 1 > 4)
+            {
+                string suffix = _str.Substring(i - 1, 2);
+                if (!_tempSet.Contains(suffix))
+                {
+                    _tempSet.Add(suffix);
+                    _set.Add(suffix);
+                    Find(i - 2);
+                    _tempSet.Remove(suffix);
+                }
+            }
+            if (i - 2 > 4)
+            {
+                string suffix = _str.Substring(i - 2, 3);
+                if (!_tempSet.Contains(suffix))
+                {
+                    _tempSet.Add(suffix);
+                    _set.Add(suffix);
+                    Find(i - 3);
+                    _tempSet.Remove(suffix);
+                }
+            }
+            solved[i] = true;
         }
     }
 }
