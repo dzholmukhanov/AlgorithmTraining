@@ -25,6 +25,7 @@ using AlgoTraining.Codeforces.Croc2016;
 using AlgoTraining.Codeforces.E_s;
 using AlgoTraining.Codeforces.B_s;
 using AlgoTraining.Codeforces.C_s;
+using AlgoTraining.Codeforces.A_s;
 
 namespace CFTraining
 {
@@ -32,7 +33,7 @@ namespace CFTraining
     {
         public static void Main(string[] args)
         {
-            ReberlandLinguistics349.Run();
+            MagicPowder350.Run();
         }
     }
 }

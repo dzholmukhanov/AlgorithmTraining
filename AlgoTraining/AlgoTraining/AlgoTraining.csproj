@@ -62,6 +62,7 @@
     <Compile Include="Codeforces\A%27s\FlashCardsECR3.cs" />
     <Compile Include="Codeforces\A%27s\GrandmaLauraAndApplesECR9.cs" />
     <Compile Include="Codeforces\A%27s\GuestFromThePast342.cs" />
+    <Compile Include="Codeforces\A%27s\Holidays350.cs" />
     <Compile Include="Codeforces\A%27s\InfiniteSequenceECR7.cs" />
     <Compile Include="Codeforces\A%27s\Interview344.cs" />
     <Compile Include="Codeforces\A%27s\LinkCutTree339.cs" />
@@ -85,6 +86,7 @@
     <Compile Include="Codeforces\B%27s\Chocolate340.cs" />
     <Compile Include="Codeforces\B%27s\DinnerWithEmmaECR5.cs" />
     <Compile Include="Codeforces\B%27s\FarRelativesProblem343.cs" />
+    <Compile Include="Codeforces\B%27s\GameOfRobots350.cs" />
     <Compile Include="Codeforces\B%27s\GenasCode339.cs" />
     <Compile Include="Codeforces\B%27s\GrandfatherDovletsCalculatorECR6.cs" />
     <Compile Include="Codeforces\B%27s\NewSkateboardECR8.cs" />
@@ -94,6 +96,7 @@
     <Compile Include="Codeforces\B%27s\ShoppingECR12.cs" />
     <Compile Include="Codeforces\B%27s\TheTimeECR7.cs" />
     <Compile Include="Codeforces\C%27s\BearAndStringDistanceECR8.cs" />
+    <Compile Include="Codeforces\C%27s\Cinema350.cs" />
     <Compile Include="Codeforces\C%27s\FoePairsECR10.cs" />
     <Compile Include="Codeforces\C%27s\HardProcessECR11.cs" />
     <Compile Include="Codeforces\C%27s\InternationalOlympiad347.cs" />
@@ -114,6 +117,7 @@
     <Compile Include="Codeforces\C%27s\SmallestStringConcatenationECR9.cs" />
     <Compile Include="Codeforces\C%27s\Watchmen345.cs" />
     <Compile Include="Codeforces\D%27s\ImagePreview345.cs" />
+    <Compile Include="Codeforces\D%27s\MagicPowder350.cs" />
     <Compile Include="Codeforces\D%27s\Messenger344.cs" />
     <Compile Include="Codeforces\D%27s\NestedSegmentsECR10.cs" />
     <Compile Include="Codeforces\D%27s\NumberOfParallelogramsECR11.cs" />
