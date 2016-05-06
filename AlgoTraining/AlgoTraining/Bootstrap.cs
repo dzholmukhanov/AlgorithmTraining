@@ -33,7 +33,7 @@ namespace CFTraining
     {
         public static void Main(string[] args)
         {
-            MagicPowder350.Run();
+            CBSEditor350.Run();
         }
     }
 }
