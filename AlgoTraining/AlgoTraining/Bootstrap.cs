@@ -33,7 +33,7 @@ namespace CFTraining
     {
         public static void Main(string[] args)
         {
-            CBSEditor350.Run();
+            WorldTour349.Run();
         }
     }
 }

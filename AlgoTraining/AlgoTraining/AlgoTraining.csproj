@@ -124,6 +124,7 @@
     <Compile Include="Codeforces\D%27s\OptimalNumberPermutationECR7.cs" />
     <Compile Include="Codeforces\D%27s\RoadsNotOnlyInBerland25.cs" />
     <Compile Include="Codeforces\D%27s\SimpleSubsetECR12.cs" />
+    <Compile Include="Codeforces\D%27s\WorldTour349.cs" />
     <Compile Include="Codeforces\E%27s\AntsInLeavesECR7.cs" />
     <Compile Include="Codeforces\E%27s\CBSEditor350.cs" />
     <Compile Include="Codeforces\E%27s\NewReform346.cs" />
@@ -138,6 +139,7 @@
     <Compile Include="Codeforces\VkCup2016\RunningWithObstaclesD.cs" />
     <Compile Include="Codeforces\VkCup2016\WrongPromocodesC.cs" />
     <Compile Include="DataStructures\DisjointSet.cs" />
+    <Compile Include="DataStructures\MinHeap.cs" />
     <Compile Include="HackerRank\BricksGame.cs" />
     <Compile Include="HackerRank\Candies.cs" />
     <Compile Include="HackerRank\Equal.cs" />
@@ -191,6 +193,7 @@
     <Compile Include="Helpers\ConsoleScanner.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DataStructures\SqrtDecomposer.cs" />
+    <Compile Include="Test\WorldTour349D.cs" />
     <Compile Include="Utilities.cs" />
     <Compile Include="HackerRank\WorldCodeSprint\EmasSupercomputer.cs" />
     <Compile Include="Codeforces\WunderFund2016\Constellation.cs" />
@@ -200,7 +203,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Test\" />
+    <Content Include="Test\input.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

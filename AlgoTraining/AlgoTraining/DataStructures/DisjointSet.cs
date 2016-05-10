@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace AlgoTraining.DataStructures
 {
+    // NOTE: Allows 1million elements at max
     public class DisjointSet
     {
         private int MaxVal;
