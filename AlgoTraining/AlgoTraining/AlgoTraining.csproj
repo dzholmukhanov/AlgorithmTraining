@@ -70,6 +70,7 @@
     <Compile Include="Codeforces\A%27s\ProfessorGukiZsRobotECR6.cs" />
     <Compile Include="Codeforces\A%27s\RoundHouse346.cs" />
     <Compile Include="Codeforces\A%27s\SaitamaDestroysHotel336.cs" />
+    <Compile Include="Codeforces\A%27s\SummerSchool352.cs" />
     <Compile Include="Codeforces\A%27s\TennisTournamentECR8.cs" />
     <Compile Include="Codeforces\A%27s\TextSplittingECR4.cs" />
     <Compile Include="Codeforces\A%27s\UltraFastMathematician57.cs" />
@@ -85,6 +86,7 @@
     <Compile Include="Codeforces\AprilFool2016\YouAreProfessionalG.cs" />
     <Compile Include="Codeforces\B%27s\Chocolate340.cs" />
     <Compile Include="Codeforces\B%27s\DinnerWithEmmaECR5.cs" />
+    <Compile Include="Codeforces\B%27s\Diversity352.cs" />
     <Compile Include="Codeforces\B%27s\FarRelativesProblem343.cs" />
     <Compile Include="Codeforces\B%27s\GameOfRobots350.cs" />
     <Compile Include="Codeforces\B%27s\GenasCode339.cs" />
@@ -103,6 +105,7 @@
     <Compile Include="Codeforces\C%27s\KspecialTables342.cs" />
     <Compile Include="Codeforces\C%27s\NotEqualOnSegmentECR7.cs" />
     <Compile Include="Codeforces\C%27s\ReberlandLinguistics349.cs" />
+    <Compile Include="Codeforces\C%27s\RecyclingBottles352.cs" />
     <Compile Include="Codeforces\C%27s\SimpleStringsECR12.cs" />
     <Compile Include="Codeforces\C%27s\TanyaAndToys346.cs" />
     <Compile Include="Codeforces\Croc2016\HostnameAliasesC.cs" />
