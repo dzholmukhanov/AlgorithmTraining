@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algorithms\Emaxx\Algebra.cs" />
     <Compile Include="Algorithms\Zfunction.cs" />
     <Compile Include="Codeforces\8VCVentureCup2016\BlockTowersC.cs" />
     <Compile Include="Codeforces\8VCVentureCup2016\CardsB.cs" />

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AlgoTraining.Algorithms
 {
-    class Zfunction
+    public class Zfunction
     {
         public static void Run()
         {
