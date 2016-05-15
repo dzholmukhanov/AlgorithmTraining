@@ -33,7 +33,7 @@ namespace CFTraining
     {
         public static void Main(string[] args)
         {
-            RecyclingBottles352.Run();
+            BearAndTwoPaths351.Run();
         }
     }
 }
