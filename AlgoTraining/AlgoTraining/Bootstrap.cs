@@ -33,7 +33,7 @@ namespace CFTraining
     {
         public static void Main(string[] args)
         {
-            BearAndTwoPaths351.Run();
+            RestoringPainting353.Run();
         }
     }
 }

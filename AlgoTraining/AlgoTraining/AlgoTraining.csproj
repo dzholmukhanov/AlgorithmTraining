@@ -64,6 +64,7 @@
     <Compile Include="Codeforces\A%27s\GrandmaLauraAndApplesECR9.cs" />
     <Compile Include="Codeforces\A%27s\GuestFromThePast342.cs" />
     <Compile Include="Codeforces\A%27s\Holidays350.cs" />
+    <Compile Include="Codeforces\A%27s\InfiniteSequence.cs" />
     <Compile Include="Codeforces\A%27s\InfiniteSequenceECR7.cs" />
     <Compile Include="Codeforces\A%27s\Interview344.cs" />
     <Compile Include="Codeforces\A%27s\LinkCutTree339.cs" />
@@ -96,6 +97,7 @@
     <Compile Include="Codeforces\B%27s\PrintCheck344.cs" />
     <Compile Include="Codeforces\B%27s\QualifyingContest346.cs" />
     <Compile Include="Codeforces\B%27s\Rebus347.cs" />
+    <Compile Include="Codeforces\B%27s\RestoringPainting353.cs" />
     <Compile Include="Codeforces\B%27s\ShoppingECR12.cs" />
     <Compile Include="Codeforces\B%27s\TheTimeECR7.cs" />
     <Compile Include="Codeforces\C%27s\BearAndStringDistanceECR8.cs" />
@@ -129,6 +131,7 @@
     <Compile Include="Codeforces\D%27s\OptimalNumberPermutationECR7.cs" />
     <Compile Include="Codeforces\D%27s\RoadsNotOnlyInBerland25.cs" />
     <Compile Include="Codeforces\D%27s\SimpleSubsetECR12.cs" />
+    <Compile Include="Codeforces\D%27s\TreeConstruct353.cs" />
     <Compile Include="Codeforces\D%27s\WorldTour349.cs" />
     <Compile Include="Codeforces\E%27s\AntsInLeavesECR7.cs" />
     <Compile Include="Codeforces\E%27s\CBSEditor350.cs" />
