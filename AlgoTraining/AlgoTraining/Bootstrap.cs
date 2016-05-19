@@ -34,7 +34,7 @@ namespace CFTraining
     {
         public static void Main(string[] args)
         {
-            ChildhoodGame.Run();
+            MadCounting.Run();
         }
     }
 }
