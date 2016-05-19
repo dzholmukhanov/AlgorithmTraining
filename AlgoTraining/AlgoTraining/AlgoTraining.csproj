@@ -199,6 +199,9 @@
     <Compile Include="HackerRank\MaximumSubarray.cs" />
     <Compile Include="HackerRank\NextPalindrome.cs" />
     <Compile Include="Helpers\ConsoleScanner.cs" />
+    <Compile Include="LightOJ\ChildhoodGame.cs" />
+    <Compile Include="LightOJ\FibsievesFantabulousBirthday.cs" />
+    <Compile Include="LightOJ\IntegerDivisibility.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DataStructures\SqrtDecomposer.cs" />
     <Compile Include="Test\WorldTour349D.cs" />
