@@ -69,6 +69,7 @@
     <Compile Include="Codeforces\A%27s\Interview344.cs" />
     <Compile Include="Codeforces\A%27s\LinkCutTree339.cs" />
     <Compile Include="Codeforces\A%27s\LLPS127.cs" />
+    <Compile Include="Codeforces\A%27s\NikolaiAndSubstitution354.cs" />
     <Compile Include="Codeforces\A%27s\ProfessorGukiZsRobotECR6.cs" />
     <Compile Include="Codeforces\A%27s\RoundHouse346.cs" />
     <Compile Include="Codeforces\A%27s\SaitamaDestroysHotel336.cs" />
@@ -95,6 +96,7 @@
     <Compile Include="Codeforces\B%27s\GrandfatherDovletsCalculatorECR6.cs" />
     <Compile Include="Codeforces\B%27s\NewSkateboardECR8.cs" />
     <Compile Include="Codeforces\B%27s\PrintCheck344.cs" />
+    <Compile Include="Codeforces\B%27s\Pyramid354.cs" />
     <Compile Include="Codeforces\B%27s\QualifyingContest346.cs" />
     <Compile Include="Codeforces\B%27s\Rebus347.cs" />
     <Compile Include="Codeforces\B%27s\RestoringPainting353.cs" />
@@ -111,6 +113,7 @@
     <Compile Include="Codeforces\C%27s\RecyclingBottles352.cs" />
     <Compile Include="Codeforces\C%27s\SimpleStringsECR12.cs" />
     <Compile Include="Codeforces\C%27s\TanyaAndToys346.cs" />
+    <Compile Include="Codeforces\C%27s\VasyaAndString354.cs" />
     <Compile Include="Codeforces\Croc2016\HostnameAliasesC.cs" />
     <Compile Include="Codeforces\Croc2016\ParliamentOfBerlandA.cs" />
     <Compile Include="Codeforces\Croc2016\ProcessingQueriesB.cs" />
@@ -203,6 +206,7 @@
     <Compile Include="LightOJ\EkkaDokka.cs" />
     <Compile Include="LightOJ\FibsievesFantabulousBirthday.cs" />
     <Compile Include="LightOJ\IntegerDivisibility.cs" />
+    <Compile Include="LightOJ\JosephusProblem.cs" />
     <Compile Include="LightOJ\MadCounting.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DataStructures\SqrtDecomposer.cs" />
