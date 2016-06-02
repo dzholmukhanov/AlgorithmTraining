@@ -108,6 +108,7 @@
     <Compile Include="Codeforces\C%27s\HardProcessECR11.cs" />
     <Compile Include="Codeforces\C%27s\InternationalOlympiad347.cs" />
     <Compile Include="Codeforces\C%27s\KspecialTables342.cs" />
+    <Compile Include="Codeforces\C%27s\MoneyTransfers353.cs" />
     <Compile Include="Codeforces\C%27s\NotEqualOnSegmentECR7.cs" />
     <Compile Include="Codeforces\C%27s\ReberlandLinguistics349.cs" />
     <Compile Include="Codeforces\C%27s\RecyclingBottles352.cs" />
@@ -149,6 +150,7 @@
     <Compile Include="Codeforces\VkCup2016\RoadImprovementC.cs" />
     <Compile Include="Codeforces\VkCup2016\RunningWithObstaclesD.cs" />
     <Compile Include="Codeforces\VkCup2016\WrongPromocodesC.cs" />
+    <Compile Include="Coursera\MaximumPairwiseMult.cs" />
     <Compile Include="DataStructures\DisjointSet.cs" />
     <Compile Include="DataStructures\MinHeap.cs" />
     <Compile Include="HackerRank\BricksGame.cs" />
