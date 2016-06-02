@@ -34,7 +34,7 @@ namespace CFTraining
     {
         public static void Main(string[] args)
         {
-            MadCounting.Run();
+            VanyaAndFoodProcessor355.Run();
         }
     }
 }

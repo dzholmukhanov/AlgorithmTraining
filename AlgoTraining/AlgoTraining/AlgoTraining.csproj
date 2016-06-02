@@ -77,6 +77,7 @@
     <Compile Include="Codeforces\A%27s\TextSplittingECR4.cs" />
     <Compile Include="Codeforces\A%27s\UltraFastMathematician57.cs" />
     <Compile Include="Codeforces\A%27s\UncowedForces334.cs" />
+    <Compile Include="Codeforces\A%27s\VanyaAndFence355.cs" />
     <Compile Include="Codeforces\A%27s\WetSharkOddEven341.cs" />
     <Compile Include="Codeforces\A%27s\YoungPhysicist63.cs" />
     <Compile Include="Codeforces\AimTech\ProblemC.cs" />
@@ -100,6 +101,7 @@
     <Compile Include="Codeforces\B%27s\RestoringPainting353.cs" />
     <Compile Include="Codeforces\B%27s\ShoppingECR12.cs" />
     <Compile Include="Codeforces\B%27s\TheTimeECR7.cs" />
+    <Compile Include="Codeforces\B%27s\VanyaAndFoodProcessor355.cs" />
     <Compile Include="Codeforces\C%27s\BearAndStringDistanceECR8.cs" />
     <Compile Include="Codeforces\C%27s\Cinema350.cs" />
     <Compile Include="Codeforces\C%27s\FoePairsECR10.cs" />
@@ -131,7 +133,6 @@
     <Compile Include="Codeforces\D%27s\OptimalNumberPermutationECR7.cs" />
     <Compile Include="Codeforces\D%27s\RoadsNotOnlyInBerland25.cs" />
     <Compile Include="Codeforces\D%27s\SimpleSubsetECR12.cs" />
-    <Compile Include="Codeforces\D%27s\TreeConstruct353.cs" />
     <Compile Include="Codeforces\D%27s\WorldTour349.cs" />
     <Compile Include="Codeforces\E%27s\AntsInLeavesECR7.cs" />
     <Compile Include="Codeforces\E%27s\CBSEditor350.cs" />
@@ -199,6 +200,7 @@
     <Compile Include="HackerRank\MaximumSubarray.cs" />
     <Compile Include="HackerRank\NextPalindrome.cs" />
     <Compile Include="Helpers\ConsoleScanner.cs" />
+    <Compile Include="LightOJ\AnsweringQueries.cs" />
     <Compile Include="LightOJ\ChildhoodGame.cs" />
     <Compile Include="LightOJ\EkkaDokka.cs" />
     <Compile Include="LightOJ\FibsievesFantabulousBirthday.cs" />
