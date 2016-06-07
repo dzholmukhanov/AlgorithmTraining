@@ -34,7 +34,7 @@ namespace CFTraining
     {
         public static void Main(string[] args)
         {
-            VanyaAndFoodProcessor355.Run();
+            TreeConstruction353.Run();
         }
     }
 }
