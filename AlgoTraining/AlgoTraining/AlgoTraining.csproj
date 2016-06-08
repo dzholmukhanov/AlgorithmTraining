@@ -119,6 +119,7 @@
     <Compile Include="Codeforces\C%27s\RecyclingBottles352.cs" />
     <Compile Include="Codeforces\C%27s\SimpleStringsECR12.cs" />
     <Compile Include="Codeforces\C%27s\TanyaAndToys346.cs" />
+    <Compile Include="Codeforces\C%27s\VanyaAndLabel355.cs" />
     <Compile Include="Codeforces\C%27s\VasyaAndString354.cs" />
     <Compile Include="Codeforces\Croc2016\HostnameAliasesC.cs" />
     <Compile Include="Codeforces\Croc2016\ParliamentOfBerlandA.cs" />
@@ -141,6 +142,7 @@
     <Compile Include="Codeforces\D%27s\OptimalNumberPermutationECR7.cs" />
     <Compile Include="Codeforces\D%27s\RoadsNotOnlyInBerland25.cs" />
     <Compile Include="Codeforces\D%27s\SimpleSubsetECR12.cs" />
+    <Compile Include="Codeforces\D%27s\TreeConstruction353.cs" />
     <Compile Include="Codeforces\D%27s\TheseusAndLabyrinth.cs" />
     <Compile Include="Codeforces\D%27s\VanyaAndTreasure355.cs" />
     <Compile Include="Codeforces\D%27s\WorldTour349.cs" />
@@ -157,7 +159,6 @@
     <Compile Include="Codeforces\VkCup2016\RoadImprovementC.cs" />
     <Compile Include="Codeforces\VkCup2016\RunningWithObstaclesD.cs" />
     <Compile Include="Codeforces\VkCup2016\WrongPromocodesC.cs" />
-    <Compile Include="Coursera\MaximumPairwiseMult.cs" />
     <Compile Include="DataStructures\DisjointSet.cs" />
     <Compile Include="DataStructures\MinHeap.cs" />
     <Compile Include="HackerRank\BricksGame.cs" />
@@ -231,6 +232,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Test\input.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Coursera\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

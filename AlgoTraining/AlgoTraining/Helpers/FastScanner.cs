@@ -38,4 +38,4 @@ namespace CFTraining.Helpers
             return Convert.ToInt64(_line[_iterator++]);
         }
     }
-}
+} 
