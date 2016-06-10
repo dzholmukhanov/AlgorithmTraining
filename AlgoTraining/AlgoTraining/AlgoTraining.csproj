@@ -150,6 +150,7 @@
     <Compile Include="Codeforces\E%27s\CBSEditor350.cs" />
     <Compile Include="Codeforces\E%27s\NewReform346.cs" />
     <Compile Include="Codeforces\E%27s\TableCompression345.cs" />
+    <Compile Include="Codeforces\E%27s\TrainsAndStatistic353.cs" />
     <Compile Include="Codeforces\F%27s\PolycarpAndHay346.cs" />
     <Compile Include="Codeforces\VkCup2016\BearAndDisplayedFriendsB.cs" />
     <Compile Include="Codeforces\VkCup2016\BearAndForgottenTree3C.cs" />
@@ -221,6 +222,7 @@
     <Compile Include="LightOJ\MadCounting.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DataStructures\SqrtDecomposer.cs" />
+    <Compile Include="Test\MaxSegmentTreeTest.cs" />
     <Compile Include="Test\WorldTour349D.cs" />
     <Compile Include="Utilities.cs" />
     <Compile Include="HackerRank\WorldCodeSprint\EmasSupercomputer.cs" />

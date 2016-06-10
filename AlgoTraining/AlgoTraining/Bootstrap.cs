@@ -34,7 +34,7 @@ namespace CFTraining
     {
         public static void Main(string[] args)
         {
-            TreeConstruction353.Run();
+            TrainsAndStatistic353.Run();
         }
     }
 }
