@@ -27,6 +27,7 @@ using AlgoTraining.Codeforces.B_s;
 using AlgoTraining.Codeforces.C_s;
 using AlgoTraining.Codeforces.A_s;
 using AlgoTraining.LightOJ;
+using AlgoTraining.CRMarathon;
 
 namespace CFTraining
 {
@@ -34,7 +35,7 @@ namespace CFTraining
     {
         public static void Main(string[] args)
         {
-            TreeConstruction353.Run();
+            OnlineExamRound1.Run();
         }
     }
 }
