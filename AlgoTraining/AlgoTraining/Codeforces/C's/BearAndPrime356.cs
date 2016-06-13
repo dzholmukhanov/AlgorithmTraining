@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace AlgoTraining.Codeforces.C_s
 {
-    class BearAndPrime100
+    class BearAndPrime356
     {
         public static void Run()
         {

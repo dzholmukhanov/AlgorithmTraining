@@ -106,7 +106,7 @@
     <Compile Include="Codeforces\B%27s\ShoppingECR12.cs" />
     <Compile Include="Codeforces\B%27s\TheTimeECR7.cs" />
     <Compile Include="Codeforces\B%27s\VanyaAndFoodProcessor355.cs" />
-    <Compile Include="Codeforces\C%27s\BearAndPrime100.cs" />
+    <Compile Include="Codeforces\C%27s\BearAndPrime356.cs" />
     <Compile Include="Codeforces\C%27s\BearAndStringDistanceECR8.cs" />
     <Compile Include="Codeforces\C%27s\Cinema350.cs" />
     <Compile Include="Codeforces\C%27s\FoePairsECR10.cs" />
@@ -121,6 +121,7 @@
     <Compile Include="Codeforces\C%27s\TanyaAndToys346.cs" />
     <Compile Include="Codeforces\C%27s\VanyaAndLabel355.cs" />
     <Compile Include="Codeforces\C%27s\VasyaAndString354.cs" />
+    <Compile Include="Codeforces\CFMarathon\OnlineExamRound1.cs" />
     <Compile Include="Codeforces\Croc2016\HostnameAliasesC.cs" />
     <Compile Include="Codeforces\Croc2016\ParliamentOfBerlandA.cs" />
     <Compile Include="Codeforces\Croc2016\ProcessingQueriesB.cs" />
