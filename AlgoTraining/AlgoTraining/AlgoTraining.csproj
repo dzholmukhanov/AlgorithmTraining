@@ -125,7 +125,6 @@
     <Compile Include="Codeforces\Croc2016\ParliamentOfBerlandA.cs" />
     <Compile Include="Codeforces\Croc2016\ProcessingQueriesB.cs" />
     <Compile Include="Codeforces\D%27s\BabaeiAndBirthdayCake343.cs" />
-    <Compile Include="Codeforces\D%27s\BearAndTowerOfCubes356.cs" />
     <Compile Include="Codeforces\D%27s\BearAndTwoPaths351.cs" />
     <Compile Include="Codeforces\D%27s\BicycleRace346.cs" />
     <Compile Include="Codeforces\D%27s\GiftsByTheList357.cs" />
@@ -145,7 +144,6 @@
     <Compile Include="Codeforces\D%27s\SimpleSubsetECR12.cs" />
     <Compile Include="Codeforces\D%27s\TreeConstruction353.cs" />
     <Compile Include="Codeforces\D%27s\TheseusAndLabyrinth.cs" />
-    <Compile Include="Codeforces\D%27s\VanyaAndTreasure355.cs" />
     <Compile Include="Codeforces\D%27s\WorldTour349.cs" />
     <Compile Include="Codeforces\E%27s\AntsInLeavesECR7.cs" />
     <Compile Include="Codeforces\E%27s\CBSEditor350.cs" />

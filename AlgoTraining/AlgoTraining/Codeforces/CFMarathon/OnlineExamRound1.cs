@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using System.Threading;
 using System.Threading.Tasks;
 
 namespace AlgoTraining.Codeforces.CFMarathon
@@ -19,37 +18,69 @@ namespace AlgoTraining.Codeforces.CFMarathon
             using (FastScanner fs = new FastScanner(new BufferedStream(Console.OpenStandardInput())))
             using (StreamWriter writer = new StreamWriter(new BufferedStream(Console.OpenStandardOutput())))
             {
-                n = 5000;
+                n = 1000;
                 x = 100;
                 k = 2000;
                 seq = new char[n];
                 answer = new char[n];
-                RandomizeRange(answer, 0, n - 1);
-                RandomizeRange(seq, 0, n - 1);
-                int max = 0;
-                for (int i = 0; i < x; i++)
+                Randomize(answer, 0, n - 1);
+                Randomize(seq, 0, n - 1);
+                //int max = -1;
+                //char[] maxSeq = new char[n];
+                //Array.Copy(seq, maxSeq, n);
+                //bool flag = false;
+                //for (int i = 0; i < x; i++)
+                //{
+                //    //writer.WriteLine(new string(seq));
+
+                //    //writer.Flush();
+                //    //int index = fs.NextInt();
+
+                //    int t = i / 20; // 0 1 2 3 4
+                //    if (!flag)
+                //    {
+                //        Randomize(seq, 1000 * t, 1000 * t + 999);
+                //        if (i == 20) Array.Copy(maxSeq, 0, seq, 0, 1000);
+                //        else if (i == 40) Array.Copy(maxSeq, 1000, seq, 1000, 1000);
+                //        else if (i == 60) Array.Copy(maxSeq, 2000, seq, 2000, 1000);
+                //        else if (i == 80) Array.Copy(maxSeq, 3000, seq, 3000, 1000);
+                //    }
+                //    int index = Judge() - 1;
+                //    if (index == n) break;
+                //    if (!flag)
+                //    {
+                //        if (index > max)
+                //        {
+                //            max = index;
+                //            Array.Copy(seq, 1000 * t, maxSeq, 1000 * t, 1000);
+                //        }
+                //        if (index >= 4200) flag = true;
+                //    }
+                //    if (flag)
+                //    {
+                //        Invert(seq, index, index);
+                //    }
+                //    writer.WriteLine(i + " " + index + " " + t);
+                //    writer.Flush();
+                //}
+                int min = int.MaxValue, max = int.MinValue;
+                for (int i = 0; i < 20; i++)
                 {
-                    //writer.WriteLine(new string(seq));
-                    //writer.Flush();
-                    int index = Judge() - 1;
-                    writer.WriteLine(i + " " + index);
+                    int cmp = Compare();
+                    min = Math.Min(min, cmp);
+                    max = Math.Max(max, cmp);
+                    writer.WriteLine(i + " " + cmp);
                     writer.Flush();
-                    if (index == n) break;
-                    Recalc(index);
-                    max = Math.Max(max, index);
+                    Randomize(seq, 0, n - 1);
                 }
-                writer.WriteLine("Max " + max);
+                writer.WriteLine(min + " " + max);
             }
         }
         public static void Recalc(int index)
         {
-            if (index < 4100) RandomizeRange(seq, 0, n - 1);
-            else
-            {
-                InvertRange(seq, index, index);
-                //RandomizeRange(seq, 4000, n - 1);
-            }
-            //RandomizeRange(seq, 0, n - 1);
+            if (index < 4100) Randomize(seq, 0, n - 1);
+            else Invert(seq, index, index);
+
         }
         private static int Compare()
         {
@@ -70,26 +101,18 @@ namespace AlgoTraining.Codeforces.CFMarathon
             }
             return n + 1;
         }
-        private static char GetRandomBit()
-        {
-            return random.NextDouble() < 0.5 ? '0' : '1';
-        }
-        private static char InvertBit(char c)
-        {
-            return c == '0' ? '1' : '0';
-        }
-        private static void RandomizeRange(char[] a, int l, int r)
+        private static void Randomize(char[] a, int l, int r)
         {
             for (int i = l; i <= r && i < a.Length; i++)
             {
-                a[i] = GetRandomBit();
+                a[i] = random.NextDouble() < 0.5 ? '0' : '1';
             }
         }
-        private static void InvertRange(char[] a, int l, int r)
+        private static void Invert(char[] a, int l, int r)
         {
             for (int i = l; i <= r && i < a.Length; i++)
             {
-                a[i] = InvertBit(seq[i]);
+                a[i] = a[i] == '0' ? '1' : '0';
             }
         }
     }
