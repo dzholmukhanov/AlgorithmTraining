@@ -36,7 +36,7 @@ namespace CFTraining
     {
         public static void Main(string[] args)
         {
-            OnlineExamRound1.Run();
+            GiftsByTheList357.Run();
         }
     }
 }

@@ -4,9 +4,10 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
-namespace AlgoTraining.CRMarathon
+namespace AlgoTraining.Codeforces.CFMarathon
 {
     class OnlineExamRound1
     {
@@ -23,24 +24,32 @@ namespace AlgoTraining.CRMarathon
                 k = 2000;
                 seq = new char[n];
                 answer = new char[n];
-                RandomizeRange(seq, 0, n - 1);
                 RandomizeRange(answer, 0, n - 1);
+                RandomizeRange(seq, 0, n - 1);
+                int max = 0;
                 for (int i = 0; i < x; i++)
                 {
                     //writer.WriteLine(new string(seq));
                     //writer.Flush();
                     int index = Judge() - 1;
                     writer.WriteLine(i + " " + index);
+                    writer.Flush();
                     if (index == n) break;
                     Recalc(index);
+                    max = Math.Max(max, index);
                 }
+                writer.WriteLine("Max " + max);
             }
         }
         public static void Recalc(int index)
         {
             if (index < 4100) RandomizeRange(seq, 0, n - 1);
-            else seq[index] = InvertBit(seq[index]);
-
+            else
+            {
+                InvertRange(seq, index, index);
+                //RandomizeRange(seq, 4000, n - 1);
+            }
+            //RandomizeRange(seq, 0, n - 1);
         }
         private static int Compare()
         {
