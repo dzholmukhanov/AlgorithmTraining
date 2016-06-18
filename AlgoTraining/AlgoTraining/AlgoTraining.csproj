@@ -125,6 +125,7 @@
     <Compile Include="Codeforces\Croc2016\ParliamentOfBerlandA.cs" />
     <Compile Include="Codeforces\Croc2016\ProcessingQueriesB.cs" />
     <Compile Include="Codeforces\D%27s\BabaeiAndBirthdayCake343.cs" />
+    <Compile Include="Codeforces\D%27s\BearAndTowerOfCubes356.cs" />
     <Compile Include="Codeforces\D%27s\BearAndTwoPaths351.cs" />
     <Compile Include="Codeforces\D%27s\BicycleRace346.cs" />
     <Compile Include="Codeforces\D%27s\GiftsByTheList357.cs" />

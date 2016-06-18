@@ -36,7 +36,7 @@ namespace CFTraining
     {
         public static void Main(string[] args)
         {
-            GiftsByTheList357.Run();
+            BearAndTowerOfCubes356.Run();
         }
     }
 }
