@@ -129,6 +129,7 @@
     <Compile Include="Codeforces\D%27s\BearAndTwoPaths351.cs" />
     <Compile Include="Codeforces\D%27s\BicycleRace346.cs" />
     <Compile Include="Codeforces\D%27s\GiftsByTheList357.cs" />
+    <Compile Include="Codeforces\D%27s\IteratedLinearFunctionECR13.cs" />
     <Compile Include="Codeforces\D%27s\LazyStudent335.cs" />
     <Compile Include="Codeforces\D%27s\LittleArtemAndDance348.cs" />
     <Compile Include="Codeforces\D%27s\LittleElephantAndArray136.cs" />
@@ -225,7 +226,7 @@
     <Compile Include="DataStructures\SqrtDecomposer.cs" />
     <Compile Include="Test\MaxSegmentTreeTest.cs" />
     <Compile Include="Test\WorldTour349D.cs" />
-    <Compile Include="Utilities.cs" />
+    <Compile Include="Helpers\Utilities.cs" />
     <Compile Include="HackerRank\WorldCodeSprint\EmasSupercomputer.cs" />
     <Compile Include="Codeforces\WunderFund2016\Constellation.cs" />
     <Compile Include="Codeforces\WunderFund2016\SlimeCombining.cs" />

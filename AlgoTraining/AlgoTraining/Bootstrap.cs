@@ -36,7 +36,7 @@ namespace CFTraining
     {
         public static void Main(string[] args)
         {
-            BearAndTowerOfCubes356.Run();
+            IteratedLinearFunctionECR13.Run();
         }
     }
 }
