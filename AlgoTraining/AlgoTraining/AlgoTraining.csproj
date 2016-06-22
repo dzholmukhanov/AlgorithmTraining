@@ -111,7 +111,9 @@
     <Compile Include="Codeforces\C%27s\Cinema350.cs" />
     <Compile Include="Codeforces\C%27s\FoePairsECR10.cs" />
     <Compile Include="Codeforces\C%27s\HardProcessECR11.cs" />
+    <Compile Include="Codeforces\C%27s\HeapOperations357.cs" />
     <Compile Include="Codeforces\C%27s\InternationalOlympiad347.cs" />
+    <Compile Include="Codeforces\C%27s\JotyAndChocolateECR13.cs" />
     <Compile Include="Codeforces\C%27s\KspecialTables342.cs" />
     <Compile Include="Codeforces\C%27s\MoneyTransfers353.cs" />
     <Compile Include="Codeforces\C%27s\NotEqualOnSegmentECR7.cs" />
@@ -144,6 +146,7 @@
     <Compile Include="Codeforces\D%27s\TreeConstruction353.cs" />
     <Compile Include="Codeforces\D%27s\TheseusAndLabyrinth.cs" />
     <Compile Include="Codeforces\D%27s\WorldTour349.cs" />
+    <Compile Include="Codeforces\E%27s\AnotherSithTournamentECR13.cs" />
     <Compile Include="Codeforces\E%27s\AntsInLeavesECR7.cs" />
     <Compile Include="Codeforces\E%27s\CBSEditor350.cs" />
     <Compile Include="Codeforces\E%27s\NewReform346.cs" />
