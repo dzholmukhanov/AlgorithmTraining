@@ -166,6 +166,10 @@ namespace AlgoTraining.DataStructures
             }
             return min;
         }
+        public KeyValuePair GetMin()
+        {
+            return _heap[0];
+        }
 
         private void BubbleUp(int nodeIndex)
         {

@@ -17,7 +17,7 @@ namespace CFTraining.Helpers
             _line = null;
             _iterator = 0;
         }
-        public int NextInt()
+        public string NextToken()
         {
             if (_line == null || _iterator >= _line.Length)
             {
@@ -25,17 +25,23 @@ namespace CFTraining.Helpers
                 _iterator = 0;
             }
             if (_line.Count() == 0) throw new IndexOutOfRangeException("Input string is empty");
-            return Convert.ToInt32(_line[_iterator++]);
+            return _line[_iterator++];
+        }
+        public int NextInt()
+        {
+            return Convert.ToInt32(NextToken());
         }
         public long NextLong()
         {
-            if (_line == null || _iterator >= _line.Length)
-            {
-                _line = base.ReadLine().Split(' ');
-                _iterator = 0;
-            }
-            if (_line.Count() == 0) throw new IndexOutOfRangeException("Input string is empty");
-            return Convert.ToInt64(_line[_iterator++]);
+            return Convert.ToInt64(NextToken());
+        }
+        public float NextFloat()
+        {
+            return float.Parse(NextToken());
+        }
+        public double NextDouble()
+        {
+            return Convert.ToDouble(NextToken());
         }
     }
 } 

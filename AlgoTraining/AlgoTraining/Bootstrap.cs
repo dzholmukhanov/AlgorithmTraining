@@ -28,7 +28,6 @@ using AlgoTraining.Codeforces.C_s;
 using AlgoTraining.Codeforces.A_s;
 using AlgoTraining.LightOJ;
 using AlgoTraining.Codeforces.CFMarathon;
-using AlgoTraining.Coursera;
 //using AlgoTraining.Coursera;
 
 namespace CFTraining
@@ -37,7 +36,7 @@ namespace CFTraining
     {
         public static void Main(string[] args)
         {
-            MikeAndThiefs361.Run();
+            AnotherSithTournamentECR13.Run();
         }
     }
 }
