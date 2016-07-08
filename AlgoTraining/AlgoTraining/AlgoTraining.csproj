@@ -53,7 +53,7 @@
     <Compile Include="Codeforces\8VCVentureCup2016\RobotSequenceA.cs" />
     <Compile Include="Codeforces\8VCVentureCup2016\Test.cs" />
     <Compile Include="Codeforces\8VCVentureCup2016\XorEquationC.cs" />
-    <Compile Include="Codeforces\A%27s\AATask.cs" />
+    <Compile Include="Codeforces\A%27s\FreeIceCream359.cs" />
     <Compile Include="Codeforces\A%27s\BearAndFiveCards356.cs" />
     <Compile Include="Codeforces\A%27s\BirthdayCake343.cs" />
     <Compile Include="Codeforces\A%27s\Bulbs338.cs" />
@@ -91,7 +91,7 @@
     <Compile Include="Codeforces\AprilFool2016\ScrambledB.cs" />
     <Compile Include="Codeforces\AprilFool2016\WithoutTextC.cs" />
     <Compile Include="Codeforces\AprilFool2016\YouAreProfessionalG.cs" />
-    <Compile Include="Codeforces\B%27s\AATask.cs" />
+    <Compile Include="Codeforces\B%27s\GirlsZoo359.cs" />
     <Compile Include="Codeforces\B%27s\BearAndFindingCriminals356.cs" />
     <Compile Include="Codeforces\B%27s\Chocolate340.cs" />
     <Compile Include="Codeforces\B%27s\DinnerWithEmmaECR5.cs" />
@@ -110,7 +110,7 @@
     <Compile Include="Codeforces\B%27s\ShoppingECR12.cs" />
     <Compile Include="Codeforces\B%27s\TheTimeECR7.cs" />
     <Compile Include="Codeforces\B%27s\VanyaAndFoodProcessor355.cs" />
-    <Compile Include="Codeforces\C%27s\AATask.cs" />
+    <Compile Include="Codeforces\C%27s\RobbersWatch359.cs" />
     <Compile Include="Codeforces\C%27s\BearAndPrime356.cs" />
     <Compile Include="Codeforces\C%27s\BearAndStringDistanceECR8.cs" />
     <Compile Include="Codeforces\C%27s\Cinema350.cs" />
@@ -138,6 +138,7 @@
     <Compile Include="Codeforces\D%27s\BearAndTowerOfCubes356.cs" />
     <Compile Include="Codeforces\D%27s\BearAndTwoPaths351.cs" />
     <Compile Include="Codeforces\D%27s\BicycleRace346.cs" />
+    <Compile Include="Codeforces\D%27s\FriendsAndSubsequences361.cs" />
     <Compile Include="Codeforces\D%27s\GiftsByTheList357.cs" />
     <Compile Include="Codeforces\D%27s\IteratedLinearFunctionECR13.cs" />
     <Compile Include="Codeforces\D%27s\LazyStudent335.cs" />
@@ -157,7 +158,6 @@
     <Compile Include="Codeforces\D%27s\TreeConstruction353.cs" />
     <Compile Include="Codeforces\D%27s\TheseusAndLabyrinth.cs" />
     <Compile Include="Codeforces\D%27s\WorldTour349.cs" />
-    <Compile Include="Codeforces\E%27s\AnotherSithTournamentECR13.cs" />
     <Compile Include="Codeforces\E%27s\AntsInLeavesECR7.cs" />
     <Compile Include="Codeforces\E%27s\CBSEditor350.cs" />
     <Compile Include="Codeforces\E%27s\NewReform346.cs" />

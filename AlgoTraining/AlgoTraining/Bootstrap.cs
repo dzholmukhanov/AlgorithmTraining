@@ -36,7 +36,7 @@ namespace CFTraining
     {
         public static void Main(string[] args)
         {
-            AnotherSithTournamentECR13.Run();
+            FriendsAndSubsequences361.Run();
         }
     }
 }
