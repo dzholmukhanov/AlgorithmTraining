@@ -20,6 +20,7 @@ namespace CFTraining
             else if (a[m] == val && val < a[m + 1] && m > 0) return m - 1;
             else return -1;
         }
+
         public static void ReadAndWrite()
         {
             var fs = File.Open("input.txt", FileMode.OpenOrCreate, FileAccess.ReadWrite);
@@ -28,6 +29,7 @@ namespace CFTraining
             sw.Close();
             sr.Close();
         }
+
         public static void Print2DArray(int[,] a)
         {
             Console.WriteLine();
@@ -40,6 +42,51 @@ namespace CFTraining
                 Console.WriteLine();
             }
         }
+
+        /* This function calculates power of p in n! */
+        private static int CountFact(int n, int p)
+        {
+            int k = 0;
+            while (n >= p)
+            {
+                k += n / p;
+                n /= p;
+            }
+            return k;
+        }
+
+        /*  Modular Multiplicative Inverse
+            Using Euler's Theorem
+            a^(phi(m)) = 1 (mod m)
+            a^(-1) = a^(m-2) (mod m) */
+        private static long InverseEuler(int n, int mod)
+        {
+            return BinPowMod(n, mod - 2, mod);
+        }
+
+        public static int FactorialMod(int n, int mod)
+        {
+            long res = 1; 
+            while (n > 0)
+            {
+                for (int i = 2, m = n % mod; i <= m; i++)
+                    res = (res * i) % mod;
+                if ((n /= mod) % 2 > 0)
+                    res = mod - res;
+            }
+            return (int)res;
+        }
+
+        public static long Combination(int n, int r, int mod)
+        {
+            if (CountFact(n, mod) > CountFact(r, mod) + CountFact(n - r, mod))
+                return 0;
+
+            return (FactorialMod(n, mod) *
+                    ((InverseEuler(FactorialMod(r, mod), mod) *
+                    InverseEuler(FactorialMod(n - r, mod), mod)) % mod)) % mod;
+        }
+
         public static long BinPow(long a, long p)
         {
             if (p == 0) return 1;
@@ -58,12 +105,12 @@ namespace CFTraining
             if (p == 0) return 1;
             if ((p & 1) == 0)
             {
-                long t = BinPow(a, p / 2);
+                long t = BinPowMod(a, p / 2, mod);
                 return (t * t) % mod;
             }
             else
             {
-                return (a % mod * BinPow(a, p - 1)) % mod;
+                return (a % mod * BinPowMod(a, p - 1, mod)) % mod;
             }
         }
 
