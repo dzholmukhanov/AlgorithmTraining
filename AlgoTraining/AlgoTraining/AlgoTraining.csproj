@@ -153,6 +153,7 @@
     <Compile Include="Codeforces\D%27s\NestedSegmentsECR10.cs" />
     <Compile Include="Codeforces\D%27s\NumberOfParallelogramsECR11.cs" />
     <Compile Include="Codeforces\D%27s\OptimalNumberPermutationECR7.cs" />
+    <Compile Include="Codeforces\D%27s\RemaindersGame360.cs" />
     <Compile Include="Codeforces\D%27s\RoadsNotOnlyInBerland25.cs" />
     <Compile Include="Codeforces\D%27s\SimpleSubsetECR12.cs" />
     <Compile Include="Codeforces\D%27s\TreeConstruction353.cs" />
