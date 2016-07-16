@@ -53,6 +53,7 @@
     <Compile Include="Codeforces\8VCVentureCup2016\RobotSequenceA.cs" />
     <Compile Include="Codeforces\8VCVentureCup2016\Test.cs" />
     <Compile Include="Codeforces\8VCVentureCup2016\XorEquationC.cs" />
+    <Compile Include="Codeforces\A%27s\PineappleIncident362.cs" />
     <Compile Include="Codeforces\A%27s\FreeIceCream359.cs" />
     <Compile Include="Codeforces\A%27s\BearAndFiveCards356.cs" />
     <Compile Include="Codeforces\A%27s\BirthdayCake343.cs" />
@@ -91,6 +92,7 @@
     <Compile Include="Codeforces\AprilFool2016\ScrambledB.cs" />
     <Compile Include="Codeforces\AprilFool2016\WithoutTextC.cs" />
     <Compile Include="Codeforces\AprilFool2016\YouAreProfessionalG.cs" />
+    <Compile Include="Codeforces\B%27s\Barnicle362.cs" />
     <Compile Include="Codeforces\B%27s\GirlsZoo359.cs" />
     <Compile Include="Codeforces\B%27s\BearAndFindingCriminals356.cs" />
     <Compile Include="Codeforces\B%27s\Chocolate340.cs" />
@@ -110,6 +112,7 @@
     <Compile Include="Codeforces\B%27s\ShoppingECR12.cs" />
     <Compile Include="Codeforces\B%27s\TheTimeECR7.cs" />
     <Compile Include="Codeforces\B%27s\VanyaAndFoodProcessor355.cs" />
+    <Compile Include="Codeforces\C%27s\LorenzoVonMatterhorn362.cs" />
     <Compile Include="Codeforces\C%27s\RobbersWatch359.cs" />
     <Compile Include="Codeforces\C%27s\BearAndPrime356.cs" />
     <Compile Include="Codeforces\C%27s\BearAndStringDistanceECR8.cs" />
@@ -134,6 +137,7 @@
     <Compile Include="Codeforces\Croc2016\ParliamentOfBerlandA.cs" />
     <Compile Include="Codeforces\Croc2016\ProcessingQueriesB.cs" />
     <Compile Include="Codeforces\D%27s\AlyonaAndStrings358.cs" />
+    <Compile Include="Codeforces\D%27s\Puzzles362.cs" />
     <Compile Include="Codeforces\D%27s\BabaeiAndBirthdayCake343.cs" />
     <Compile Include="Codeforces\D%27s\BearAndTowerOfCubes356.cs" />
     <Compile Include="Codeforces\D%27s\BearAndTwoPaths351.cs" />
