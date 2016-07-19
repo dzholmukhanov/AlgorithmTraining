@@ -167,6 +167,7 @@
     <Compile Include="Codeforces\E%27s\CBSEditor350.cs" />
     <Compile Include="Codeforces\E%27s\MikeAndGeometryProblem361.cs" />
     <Compile Include="Codeforces\E%27s\NewReform346.cs" />
+    <Compile Include="Codeforces\E%27s\Please362.cs" />
     <Compile Include="Codeforces\E%27s\TableCompression345.cs" />
     <Compile Include="Codeforces\E%27s\TrainsAndStatistic353.cs" />
     <Compile Include="Codeforces\F%27s\PolycarpAndHay346.cs" />
