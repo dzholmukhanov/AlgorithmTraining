@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace CFTraining
 {
@@ -197,6 +198,25 @@ namespace CFTraining
             {
                 throw new Exception("Can't multiply because of incompatible sizes");
             }
+        }
+
+        private static long[,] MatrixProductMod(long[,] matrixA, long[,] matrixB, long mod)
+        {
+            int aRows = matrixA.GetLength(0); int aCols = matrixA.GetLength(1);
+            int bRows = matrixB.GetLength(0); int bCols = matrixB.GetLength(1);
+            if (aCols != bRows)
+                throw new Exception("Can't multiply because of incompatible sizes");
+
+            long[,] result = new long[aRows, bCols];
+
+            Parallel.For(0, aRows, i =>
+            {
+                for (int j = 0; j < bCols; ++j) // each col of B
+                    for (int k = 0; k < aCols; ++k) // could use k < bRows
+                        result[i, j] = (result[i, j] + matrixA[i, k] * matrixB[k, j]) % mod;
+            });
+
+            return result;
         }
 
         private static long[,] MatrixMod(long[,] a, long mod)
