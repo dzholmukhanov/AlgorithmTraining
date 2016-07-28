@@ -53,6 +53,8 @@
     <Compile Include="Codeforces\8VCVentureCup2016\RobotSequenceA.cs" />
     <Compile Include="Codeforces\8VCVentureCup2016\Test.cs" />
     <Compile Include="Codeforces\8VCVentureCup2016\XorEquationC.cs" />
+    <Compile Include="Codeforces\A%27s\PineappleIncident362.cs" />
+    <Compile Include="Codeforces\A%27s\FreeIceCream359.cs" />
     <Compile Include="Codeforces\A%27s\BearAndFiveCards356.cs" />
     <Compile Include="Codeforces\A%27s\BirthdayCake343.cs" />
     <Compile Include="Codeforces\A%27s\Bulbs338.cs" />
@@ -70,6 +72,7 @@
     <Compile Include="Codeforces\A%27s\Interview344.cs" />
     <Compile Include="Codeforces\A%27s\LinkCutTree339.cs" />
     <Compile Include="Codeforces\A%27s\LLPS127.cs" />
+    <Compile Include="Codeforces\A%27s\MikeAndPhone361.cs" />
     <Compile Include="Codeforces\A%27s\NikolaiAndSubstitution354.cs" />
     <Compile Include="Codeforces\A%27s\ProfessorGukiZsRobotECR6.cs" />
     <Compile Include="Codeforces\A%27s\RoundHouse346.cs" />
@@ -89,6 +92,8 @@
     <Compile Include="Codeforces\AprilFool2016\ScrambledB.cs" />
     <Compile Include="Codeforces\AprilFool2016\WithoutTextC.cs" />
     <Compile Include="Codeforces\AprilFool2016\YouAreProfessionalG.cs" />
+    <Compile Include="Codeforces\B%27s\Barnicle362.cs" />
+    <Compile Include="Codeforces\B%27s\GirlsZoo359.cs" />
     <Compile Include="Codeforces\B%27s\BearAndFindingCriminals356.cs" />
     <Compile Include="Codeforces\B%27s\Chocolate340.cs" />
     <Compile Include="Codeforces\B%27s\DinnerWithEmmaECR5.cs" />
@@ -97,6 +102,7 @@
     <Compile Include="Codeforces\B%27s\GameOfRobots350.cs" />
     <Compile Include="Codeforces\B%27s\GenasCode339.cs" />
     <Compile Include="Codeforces\B%27s\GrandfatherDovletsCalculatorECR6.cs" />
+    <Compile Include="Codeforces\B%27s\MikeAndShortcuts361.cs" />
     <Compile Include="Codeforces\B%27s\NewSkateboardECR8.cs" />
     <Compile Include="Codeforces\B%27s\PrintCheck344.cs" />
     <Compile Include="Codeforces\B%27s\Pyramid354.cs" />
@@ -106,6 +112,9 @@
     <Compile Include="Codeforces\B%27s\ShoppingECR12.cs" />
     <Compile Include="Codeforces\B%27s\TheTimeECR7.cs" />
     <Compile Include="Codeforces\B%27s\VanyaAndFoodProcessor355.cs" />
+    <Compile Include="Codeforces\C%27s\ExponentialNotationECR14.cs" />
+    <Compile Include="Codeforces\C%27s\LorenzoVonMatterhorn362.cs" />
+    <Compile Include="Codeforces\C%27s\RobbersWatch359.cs" />
     <Compile Include="Codeforces\C%27s\AlyonaAndTree358.cs" />
     <Compile Include="Codeforces\C%27s\BearAndPrime356.cs" />
     <Compile Include="Codeforces\C%27s\BearAndStringDistanceECR8.cs" />
@@ -116,8 +125,10 @@
     <Compile Include="Codeforces\C%27s\InternationalOlympiad347.cs" />
     <Compile Include="Codeforces\C%27s\JotyAndChocolateECR13.cs" />
     <Compile Include="Codeforces\C%27s\KspecialTables342.cs" />
+    <Compile Include="Codeforces\C%27s\MikeAndThiefs361.cs" />
     <Compile Include="Codeforces\C%27s\MoneyTransfers353.cs" />
     <Compile Include="Codeforces\C%27s\NotEqualOnSegmentECR7.cs" />
+    <Compile Include="Codeforces\C%27s\NpHardProblem360.cs" />
     <Compile Include="Codeforces\C%27s\ReberlandLinguistics349.cs" />
     <Compile Include="Codeforces\C%27s\RecyclingBottles352.cs" />
     <Compile Include="Codeforces\C%27s\SimpleStringsECR12.cs" />
@@ -128,10 +139,12 @@
     <Compile Include="Codeforces\Croc2016\ParliamentOfBerlandA.cs" />
     <Compile Include="Codeforces\Croc2016\ProcessingQueriesB.cs" />
     <Compile Include="Codeforces\D%27s\AlyonaAndStrings358.cs" />
+    <Compile Include="Codeforces\D%27s\Puzzles362.cs" />
     <Compile Include="Codeforces\D%27s\BabaeiAndBirthdayCake343.cs" />
     <Compile Include="Codeforces\D%27s\BearAndTowerOfCubes356.cs" />
     <Compile Include="Codeforces\D%27s\BearAndTwoPaths351.cs" />
     <Compile Include="Codeforces\D%27s\BicycleRace346.cs" />
+    <Compile Include="Codeforces\D%27s\FriendsAndSubsequences361.cs" />
     <Compile Include="Codeforces\D%27s\GiftsByTheList357.cs" />
     <Compile Include="Codeforces\D%27s\IteratedLinearFunctionECR13.cs" />
     <Compile Include="Codeforces\D%27s\LazyStudent335.cs" />
@@ -146,18 +159,22 @@
     <Compile Include="Codeforces\D%27s\NestedSegmentsECR10.cs" />
     <Compile Include="Codeforces\D%27s\NumberOfParallelogramsECR11.cs" />
     <Compile Include="Codeforces\D%27s\OptimalNumberPermutationECR7.cs" />
+    <Compile Include="Codeforces\D%27s\RemaindersGame360.cs" />
     <Compile Include="Codeforces\D%27s\RoadsNotOnlyInBerland25.cs" />
     <Compile Include="Codeforces\D%27s\SimpleSubsetECR12.cs" />
+    <Compile Include="Codeforces\D%27s\SwapsInPermutationECR14.cs" />
     <Compile Include="Codeforces\D%27s\TreeConstruction353.cs" />
     <Compile Include="Codeforces\D%27s\TheseusAndLabyrinth.cs" />
     <Compile Include="Codeforces\D%27s\WorldTour349.cs" />
-    <Compile Include="Codeforces\E%27s\AnotherSithTournamentECR13.cs" />
     <Compile Include="Codeforces\E%27s\AntsInLeavesECR7.cs" />
     <Compile Include="Codeforces\E%27s\CBSEditor350.cs" />
+    <Compile Include="Codeforces\E%27s\MikeAndGeometryProblem361.cs" />
     <Compile Include="Codeforces\E%27s\NewReform346.cs" />
+    <Compile Include="Codeforces\E%27s\Please362.cs" />
     <Compile Include="Codeforces\E%27s\TableCompression345.cs" />
     <Compile Include="Codeforces\E%27s\TrainsAndStatistic353.cs" />
     <Compile Include="Codeforces\F%27s\CoupleCoverECR14.cs" />
+    <Compile Include="Codeforces\E%27s\XorSequencesECR14.cs" />
     <Compile Include="Codeforces\F%27s\PolycarpAndHay346.cs" />
     <Compile Include="Codeforces\VkCup2016\BearAndDisplayedFriendsB.cs" />
     <Compile Include="Codeforces\VkCup2016\BearAndForgottenTree3C.cs" />
@@ -207,7 +224,7 @@
     <Compile Include="Codeforces\D%27s\ProfessorGukiZAndTwoArraysECR6.cs" />
     <Compile Include="Codeforces\D%27s\Skills339.cs" />
     <Compile Include="Codeforces\D%27s\TheUnionOfKSegmentsECR4.cs" />
-    <Compile Include="DataStructures\SegmentTree.cs" />
+    <Compile Include="DataStructures\SegmentTrees.cs" />
     <Compile Include="Codeforces\E%27s\DevuAndFlowers258.cs" />
     <Compile Include="Codeforces\E%27s\Hexagons338.cs" />
     <Compile Include="Codeforces\E%27s\NewYearTreeECR6.cs" />
@@ -230,6 +247,11 @@
     <Compile Include="LightOJ\MadCounting.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DataStructures\SqrtDecomposer.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
     <Compile Include="Test\MaxSegmentTreeTest.cs" />
     <Compile Include="Test\WorldTour349D.cs" />
     <Compile Include="Helpers\Utilities.cs" />
@@ -239,6 +261,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Test\input.txt" />
