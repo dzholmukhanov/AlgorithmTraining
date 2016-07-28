@@ -106,6 +106,7 @@
     <Compile Include="Codeforces\B%27s\ShoppingECR12.cs" />
     <Compile Include="Codeforces\B%27s\TheTimeECR7.cs" />
     <Compile Include="Codeforces\B%27s\VanyaAndFoodProcessor355.cs" />
+    <Compile Include="Codeforces\C%27s\AlyonaAndTree358.cs" />
     <Compile Include="Codeforces\C%27s\BearAndPrime356.cs" />
     <Compile Include="Codeforces\C%27s\BearAndStringDistanceECR8.cs" />
     <Compile Include="Codeforces\C%27s\Cinema350.cs" />
@@ -126,6 +127,7 @@
     <Compile Include="Codeforces\Croc2016\HostnameAliasesC.cs" />
     <Compile Include="Codeforces\Croc2016\ParliamentOfBerlandA.cs" />
     <Compile Include="Codeforces\Croc2016\ProcessingQueriesB.cs" />
+    <Compile Include="Codeforces\D%27s\AlyonaAndStrings358.cs" />
     <Compile Include="Codeforces\D%27s\BabaeiAndBirthdayCake343.cs" />
     <Compile Include="Codeforces\D%27s\BearAndTowerOfCubes356.cs" />
     <Compile Include="Codeforces\D%27s\BearAndTwoPaths351.cs" />
@@ -155,6 +157,7 @@
     <Compile Include="Codeforces\E%27s\NewReform346.cs" />
     <Compile Include="Codeforces\E%27s\TableCompression345.cs" />
     <Compile Include="Codeforces\E%27s\TrainsAndStatistic353.cs" />
+    <Compile Include="Codeforces\F%27s\CoupleCoverECR14.cs" />
     <Compile Include="Codeforces\F%27s\PolycarpAndHay346.cs" />
     <Compile Include="Codeforces\VkCup2016\BearAndDisplayedFriendsB.cs" />
     <Compile Include="Codeforces\VkCup2016\BearAndForgottenTree3C.cs" />
