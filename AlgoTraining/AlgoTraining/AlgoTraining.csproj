@@ -115,6 +115,7 @@
     <Compile Include="Codeforces\C%27s\ExponentialNotationECR14.cs" />
     <Compile Include="Codeforces\C%27s\LorenzoVonMatterhorn362.cs" />
     <Compile Include="Codeforces\C%27s\RobbersWatch359.cs" />
+    <Compile Include="Codeforces\C%27s\AlyonaAndTree358.cs" />
     <Compile Include="Codeforces\C%27s\BearAndPrime356.cs" />
     <Compile Include="Codeforces\C%27s\BearAndStringDistanceECR8.cs" />
     <Compile Include="Codeforces\C%27s\Cinema350.cs" />
@@ -174,6 +175,7 @@
     <Compile Include="Codeforces\E%27s\Please362.cs" />
     <Compile Include="Codeforces\E%27s\TableCompression345.cs" />
     <Compile Include="Codeforces\E%27s\TrainsAndStatistic353.cs" />
+    <Compile Include="Codeforces\F%27s\CoupleCoverECR14.cs" />
     <Compile Include="Codeforces\E%27s\XorSequencesECR14.cs" />
     <Compile Include="Codeforces\F%27s\PolycarpAndHay346.cs" />
     <Compile Include="Codeforces\VkCup2016\BearAndDisplayedFriendsB.cs" />
