@@ -134,6 +134,7 @@
     <Compile Include="Codeforces\C%27s\SimpleStringsECR12.cs" />
     <Compile Include="Codeforces\C%27s\TanyaAndToys346.cs" />
     <Compile Include="Codeforces\C%27s\TheyAreEveryWhere364.cs" />
+    <Compile Include="Codeforces\C%27s\Vacations363.cs" />
     <Compile Include="Codeforces\C%27s\VanyaAndLabel355.cs" />
     <Compile Include="Codeforces\C%27s\VasyaAndString354.cs" />
     <Compile Include="Codeforces\Croc2016\HostnameAliasesC.cs" />
@@ -141,6 +142,7 @@
     <Compile Include="Codeforces\Croc2016\ProcessingQueriesB.cs" />
     <Compile Include="Codeforces\D%27s\AlyonaAndStrings358.cs" />
     <Compile Include="Codeforces\D%27s\AsFastAsPossible364.cs" />
+    <Compile Include="Codeforces\D%27s\FixaTree363.cs" />
     <Compile Include="Codeforces\D%27s\Puzzles362.cs" />
     <Compile Include="Codeforces\D%27s\BabaeiAndBirthdayCake343.cs" />
     <Compile Include="Codeforces\D%27s\BearAndTowerOfCubes356.cs" />

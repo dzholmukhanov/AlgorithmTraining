@@ -10,7 +10,7 @@ namespace AlgoTraining.Codeforces.C_s
 {
     class AlyonaAndTree358
     {
-        private static LinkedList<Edge>[] adjList;
+        private static LinkedList<Edge1>[] adjList;
         private static int[] a, childNum;
         public static void Run()
         {
@@ -19,17 +19,17 @@ namespace AlgoTraining.Codeforces.C_s
             {
                 int n = fs.NextInt();
                 a = new int[n];
-                adjList = new LinkedList<Edge>[n];
+                adjList = new LinkedList<Edge1>[n];
                 for (int i = 0; i < n; i++)
                 {
-                    adjList[i] = new LinkedList<Edge>();
+                    adjList[i] = new LinkedList<Edge1>();
                     a[i] = fs.NextInt();
                 }
                 for (int i = 0; i < n - 1; i++)
                 {
                     int p = fs.NextInt() - 1, c = fs.NextInt();
-                    adjList[i + 1].AddLast(new Edge { v = p, w = c });
-                    adjList[p].AddLast(new Edge { v = i + 1, w = c });
+                    adjList[i + 1].AddLast(new Edge1 { v = p, w = c });
+                    adjList[p].AddLast(new Edge1 { v = i + 1, w = c });
                 }
                 childNum = new int[n];
                 GetChildNum(0, new bool[n]);
@@ -41,7 +41,7 @@ namespace AlgoTraining.Codeforces.C_s
         {
             visited[u] = true;
             long res = 0;
-            foreach (Edge edge in adjList[u])
+            foreach (Edge1 edge in adjList[u])
             {
                 if (!visited[edge.v])
                 {
@@ -54,7 +54,7 @@ namespace AlgoTraining.Codeforces.C_s
         public static int GetChildNum(int u, bool[] visited)
         {
             visited[u] = true;
-            foreach (Edge edge in adjList[u])
+            foreach (Edge1 edge in adjList[u])
             {
                 if (!visited[edge.v])
                 {
@@ -64,7 +64,7 @@ namespace AlgoTraining.Codeforces.C_s
             return childNum[u];
         }
     }
-    class Edge
+    class Edge1
     {
         public int v, w;
     }
