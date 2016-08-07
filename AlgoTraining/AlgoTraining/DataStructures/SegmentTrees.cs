@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CFTraining.DataStructures
 {
-    class MinSegmentTree
+    public class MinSegmentTree
     {
         private int[] _original, _tree, _lazy;
         private int _size;
@@ -96,7 +96,7 @@ namespace CFTraining.DataStructures
     }
 
 
-    class MaxSegmentTreeWithIndices
+    public class MaxSegmentTreeWithIndices
     {
         private int[] _original, _tree, _lazy, _inds;
         private int _size;
@@ -224,6 +224,84 @@ namespace CFTraining.DataStructures
                     _tree[pos] = _tree[pos * 2 + 2];
                     _inds[pos] = _inds[pos * 2 + 2];
                 }
+            }
+        }
+    }
+
+
+    public class XorSegmentTreeFast
+    {
+        private int[] _original, _tree;
+        private int _size;
+        public XorSegmentTreeFast(int[] a)
+        {
+            _size = a.Length << 2;
+            _original = a.ToArray();
+            _tree = Enumerable.Repeat(0, _size).ToArray();
+            Construct(0, _original.Length - 1, 0);
+        }
+        private void Construct(int l, int r, int pos)
+        {
+            if (l == r) _tree[pos] = _original[l];
+            else
+            {
+                int mid = (l + r) >> 1;
+                Construct(l, mid, (pos << 1) + 1);
+                Construct(mid + 1, r, (pos << 1) + 2);
+                _tree[pos] = _tree[(pos << 1) + 1] ^ _tree[(pos << 1) + 2];
+            }
+        }
+        public int QueryXor(int ql, int qr)
+        {
+            int res = 0;
+            Stack<Tuple<int, int, int>> stack = new Stack<Tuple<int, int, int>>();
+            stack.Push(new Tuple<int, int, int>(0, _original.Length - 1, 0));
+            while (stack.Count > 0)
+            {
+                var t = stack.Pop();
+                int l = t.Item1, r = t.Item2, pos = t.Item3;
+                int mid = (l + r) >> 1;
+                if (l >= ql && mid <= qr) // total overlap
+                {
+                    res ^= _tree[(pos << 1) + 1];
+                }
+                else if (qr >= l && ql <= mid) // partial overlap
+                {
+                    stack.Push(new Tuple<int, int, int>(l, mid, (pos << 1) + 1));
+                }
+                if (mid + 1 >= ql && r <= qr) // total overlap
+                {
+                    res ^= _tree[(pos << 1) + 2];
+                }
+                else if (qr >= mid + 1 && ql <= r) // partial overlap
+                {
+                    stack.Push(new Tuple<int, int, int>(mid + 1, r, (pos << 1) + 2));
+                }
+            }
+            return res;
+        }
+        public void Update(int index, int value)
+        {
+            int l = 0, r = _original.Length - 1, pos = 0;
+            while (l < r)
+            {
+                int mid = (l + r) >> 1;
+                if (index <= mid)
+                {
+                    r = mid;
+                    pos = (pos << 1) + 1;
+                }
+                else
+                {
+                    l = mid + 1;
+                    pos = (pos << 1) + 2;
+                }
+            }
+            _tree[pos] = value;
+            while (pos > 0)
+            {
+                pos = (pos - 1) >> 1;
+                _tree[pos] = _tree[(pos << 1) + 1] ^ _tree[(pos << 1) + 2];
             }
         }
     }

@@ -53,6 +53,7 @@
     <Compile Include="Codeforces\8VCVentureCup2016\RobotSequenceA.cs" />
     <Compile Include="Codeforces\8VCVentureCup2016\Test.cs" />
     <Compile Include="Codeforces\8VCVentureCup2016\XorEquationC.cs" />
+    <Compile Include="Codeforces\A%27s\MishkaAndGame365.cs" />
     <Compile Include="Codeforces\A%27s\PineappleIncident362.cs" />
     <Compile Include="Codeforces\A%27s\FreeIceCream359.cs" />
     <Compile Include="Codeforces\A%27s\BearAndFiveCards356.cs" />
@@ -92,6 +93,7 @@
     <Compile Include="Codeforces\AprilFool2016\ScrambledB.cs" />
     <Compile Include="Codeforces\AprilFool2016\WithoutTextC.cs" />
     <Compile Include="Codeforces\AprilFool2016\YouAreProfessionalG.cs" />
+    <Compile Include="Codeforces\B%27s\MishkaAndTrip365.cs" />
     <Compile Include="Codeforces\B%27s\Barnicle362.cs" />
     <Compile Include="Codeforces\B%27s\GirlsZoo359.cs" />
     <Compile Include="Codeforces\B%27s\BearAndFindingCriminals356.cs" />
@@ -140,6 +142,7 @@
     <Compile Include="Codeforces\Croc2016\HostnameAliasesC.cs" />
     <Compile Include="Codeforces\Croc2016\ParliamentOfBerlandA.cs" />
     <Compile Include="Codeforces\Croc2016\ProcessingQueriesB.cs" />
+    <Compile Include="Codeforces\D%27s\MishkaAndInterestingSum365.cs" />
     <Compile Include="Codeforces\D%27s\AlyonaAndStrings358.cs" />
     <Compile Include="Codeforces\D%27s\AsFastAsPossible364.cs" />
     <Compile Include="Codeforces\D%27s\FixaTree363.cs" />
