@@ -203,6 +203,7 @@
     <Compile Include="Codeforces\CFMarathon\OnlineExamRound1.cs" />
     <Compile Include="DataStructures\DisjointSet.cs" />
     <Compile Include="DataStructures\MinHeap.cs" />
+    <Compile Include="DataStructures\Tries.cs" />
     <Compile Include="HackerRank\BricksGame.cs" />
     <Compile Include="HackerRank\Candies.cs" />
     <Compile Include="HackerRank\Equal.cs" />
