@@ -9,16 +9,147 @@ namespace CFTraining
 {
     public class Utilities
     {
-        public static int binRangeSearch(int[] a, int l, int r, int val)
+        private static string DecimalToPaddedBinary(int x)
         {
-            if (a[r] < val) return r;
-            else if (l >= r) return -1;
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < 31; i++)
+            {
+                sb.Append(x & 1);
+                x >>= 1;
+            }
+            return new string(sb.ToString().Reverse().ToArray());
+        }
 
-            int m = l + (r - l) / 2;
-            if (a[m] < val && a[m + 1] < val) return binRangeSearch(a, m + 1, r, val);
-            else if (a[m] > val && a[m + 1] > val) return binRangeSearch(a, l, m, val);
-            else if (a[m] < val && val <= a[m + 1]) return m;
-            else if (a[m] == val && val < a[m + 1] && m > 0) return m - 1;
+        private static int PaddedBinaryToDecimal(string bin)
+        {
+            int x = 0, k = 0;
+            for (int i = bin.Length - 1; i >= 0; i--, k++)
+            {
+                if (bin[i] == '1') x += (int)Math.Pow(2, k);
+            }
+            return x;
+        }
+        public static int FindLowerBound<T>(T[] a, T val) where T : IComparable
+        {
+            if (a == null || a.Length == 0) return -1;
+
+            T max = a[0];
+            int index = -1;
+            for (int i = 0; i < a.Length; i++)
+            {
+                if (a[i].CompareTo(val) < 0)
+                {
+                    if (index == -1)
+                    {
+                        index = i;
+                        max = a[i];
+                    }
+                    else if (a[i].CompareTo(max) > 0)
+                    {
+                        index = i;
+                        max = a[i];
+                    }
+                }
+            }
+            return index;
+        }
+        public static int FindUpperBound<T>(T[] a, T val) where T : IComparable
+        {
+            if (a == null || a.Length == 0) return -1;
+
+            T min = a[0];
+            int index = -1;
+            for (int i = 0; i < a.Length; i++)
+            {
+                if (a[i].CompareTo(val) > 0)
+                {
+                    if (index == -1)
+                    {
+                        index = i;
+                        min = a[i];
+                    }
+                    else if (a[i].CompareTo(min) < 0)
+                    {
+                        index = i;
+                        min = a[i];
+                    }
+                }
+            }
+            return index;
+        }
+        public static int Find<T>(T[] a, T val) where T : IComparable
+        {
+            if (a == null || a.Length == 0) return -1;
+
+            for (int i = 0; i < a.Length; i++)
+            {
+                if (a[i].Equals(val)) return i;
+            }
+            return -1;
+        }
+        public static int BinarySearchLowerBoundInOrdered<T>(T[] a, T val) where T : IComparable
+        {
+            if (a == null || a.Length == 0) return -1;
+
+            int l = 0, r = a.Length - 1;
+            while (l < r)
+            {
+                int m = (l + r) / 2;
+                if (a[m].CompareTo(val) >= 0) r = m - 1;
+                else
+                {
+                    l = m;
+                    if (r == l + 1)
+                    {
+                        if (a[r].CompareTo(val) >= 0) return l;
+                        else return r;
+                    }
+                }
+            }
+            if (l == r && a[l].CompareTo(val) < 0) return l;
+            else return -1;
+        }
+        public static int BinarySearchUpperBoundInOrdered<T>(T[] a, T val) where T : IComparable
+        {
+            if (a == null || a.Length == 0) return -1;
+
+            int l = 0, r = a.Length - 1;
+            while (l < r)
+            {
+                int m = (l + r) / 2;
+                if (a[m].CompareTo(val) <= 0) l = m + 1;
+                else
+                {
+                    r = m;
+                    if (r == l + 1)
+                    {
+                        if (a[l].CompareTo(val) <= 0) return r;
+                        else return l;
+                    }
+                }
+            }
+            if (l == r && a[r].CompareTo(val) > 0) return r;
+            else return -1;
+        }
+        public static int BinarySearchInOrdered<T>(T[] a, T val) where T : IComparable
+        {
+            if (a == null || a.Length == 0) return -1;
+
+            int l = 0, r = a.Length - 1;
+            while (l < r)
+            {
+                int m = (l + r) / 2;
+                if (a[m].CompareTo(val) < 0)
+                {
+                    l = m + 1;
+                }
+                else if (a[m].CompareTo(val) > 0)
+                {
+                    r = m - 1;
+                }
+                else return m;
+            }
+            if (l == r && a[l].CompareTo(val) == 0) return l;
             else return -1;
         }
 
