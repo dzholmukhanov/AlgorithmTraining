@@ -118,6 +118,7 @@
     <Compile Include="Codeforces\B%27s\ShoppingECR12.cs" />
     <Compile Include="Codeforces\B%27s\TheTimeECR7.cs" />
     <Compile Include="Codeforces\B%27s\VanyaAndFoodProcessor355.cs" />
+    <Compile Include="Codeforces\C%27s\CrazyTown284.cs" />
     <Compile Include="Codeforces\C%27s\HardProblem367.cs" />
     <Compile Include="Codeforces\C%27s\CellularNetworkECR15.cs" />
     <Compile Include="Codeforces\C%27s\Thor366.cs" />
@@ -255,6 +256,7 @@
     <Compile Include="HackerRank\MaximumSubarray.cs" />
     <Compile Include="HackerRank\NextPalindrome.cs" />
     <Compile Include="Helpers\ConsoleScanner.cs" />
+    <Compile Include="Helpers\Geometry.cs" />
     <Compile Include="LightOJ\AnsweringQueries.cs" />
     <Compile Include="LightOJ\ChildhoodGame.cs" />
     <Compile Include="LightOJ\EkkaDokka.cs" />
