@@ -305,4 +305,93 @@ namespace CFTraining.DataStructures
             }
         }
     }
+
+    public class MinSegmentTreeIncreaseUpdate
+    {
+        private int[] _original, _tree, _lazy;
+        private int _size;
+        public MinSegmentTreeIncreaseUpdate(int[] a)
+        {
+            _size = 4 * a.Length;
+            _original = a.ToArray();
+            _tree = Enumerable.Repeat(int.MaxValue, _size).ToArray();
+            _lazy = Enumerable.Repeat(0, _size).ToArray();
+            Construct(0, _original.Length - 1, 0);
+        }
+        private void Construct(int l, int r, int pos)
+        {
+            if (l == r) _tree[pos] = _original[l];
+            else
+            {
+                int mid = (l + r) / 2;
+                Construct(l, mid, pos * 2 + 1);
+                Construct(mid + 1, r, pos * 2 + 2);
+                _tree[pos] = Math.Min(_tree[pos * 2 + 1], _tree[pos * 2 + 2]);
+            }
+        }
+        public int QueryMin(int ql, int qr)
+        {
+            return QueryMin(ql, qr, 0, _original.Length - 1, 0);
+        }
+        private int QueryMin(int ql, int qr, int l, int r, int pos)
+        {
+            if (l > r) return int.MaxValue;
+
+            if (_lazy[pos] != 0)
+            {
+                _tree[pos] += _lazy[pos];
+                if (l != r)
+                {
+                    _lazy[pos * 2 + 1] += _lazy[pos];
+                    _lazy[pos * 2 + 2] += _lazy[pos];
+                }
+                _lazy[pos] = 0;
+            }
+
+            if (l >= ql && r <= qr) return _tree[pos];
+            else if (qr < l || ql > r) return int.MaxValue;
+            else
+            {
+                int mid = (l + r) / 2;
+                return Math.Min(QueryMin(ql, qr, l, mid, pos * 2 + 1), QueryMin(ql, qr, mid + 1, r, pos * 2 + 2));
+            }
+        }
+        public void Increase(int ql, int qr, int value)
+        {
+            Increase(ql, qr, 0, _original.Length - 1, 0, value);
+        }
+        private void Increase(int ql, int qr, int l, int r, int pos, int value)
+        {
+            if (l > r) return;
+
+            if (_lazy[pos] != 0)
+            {
+                _tree[pos] += _lazy[pos];
+                if (l != r)
+                {
+                    _lazy[pos * 2 + 1] += _lazy[pos];
+                    _lazy[pos * 2 + 2] += _lazy[pos];
+                }
+                _lazy[pos] = 0;
+            }
+
+            if (l >= ql && r <= qr)
+            {
+                _tree[pos] += value;
+                if (l != r)
+                {
+                    _lazy[pos * 2 + 1] += value;
+                    _lazy[pos * 2 + 2] += value;
+                }
+            }
+            else if (qr < l || ql > r) return;
+            else
+            {
+                int mid = (l + r) / 2;
+                Increase(ql, qr, l, mid, pos * 2 + 1, value);
+                Increase(ql, qr, mid + 1, r, pos * 2 + 2, value);
+                _tree[pos] = Math.Min(_tree[pos * 2 + 1], _tree[pos * 2 + 2]);
+            }
+        }
+    }
 }

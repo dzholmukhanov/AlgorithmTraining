@@ -190,6 +190,7 @@
     <Compile Include="Codeforces\E%27s\Please362.cs" />
     <Compile Include="Codeforces\E%27s\TableCompression345.cs" />
     <Compile Include="Codeforces\E%27s\TrainsAndStatistic353.cs" />
+    <Compile Include="Codeforces\E%27s\WorkingRoutine367.cs" />
     <Compile Include="Codeforces\F%27s\CoupleCoverECR14.cs" />
     <Compile Include="Codeforces\E%27s\XorSequencesECR14.cs" />
     <Compile Include="Codeforces\F%27s\PolycarpAndHay346.cs" />
