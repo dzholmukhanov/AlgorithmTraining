@@ -152,6 +152,7 @@
     <Compile Include="Codeforces\Croc2016\ParliamentOfBerlandA.cs" />
     <Compile Include="Codeforces\Croc2016\ProcessingQueriesB.cs" />
     <Compile Include="Codeforces\D%27s\Colliders109.cs" />
+    <Compile Include="Codeforces\D%27s\Suspects110.cs" />
     <Compile Include="Codeforces\D%27s\VasiliysMultiset367.cs" />
     <Compile Include="Codeforces\D%27s\MishkaAndInterestingSum365.cs" />
     <Compile Include="Codeforces\D%27s\AlyonaAndStrings358.cs" />
