@@ -122,6 +122,7 @@
     <Compile Include="Codeforces\C%27s\EnduringExodusCROC2016.cs" />
     <Compile Include="Codeforces\C%27s\HardProblem367.cs" />
     <Compile Include="Codeforces\C%27s\CellularNetworkECR15.cs" />
+    <Compile Include="Codeforces\C%27s\PieOrDie51.cs" />
     <Compile Include="Codeforces\C%27s\Thor366.cs" />
     <Compile Include="Codeforces\C%27s\ExponentialNotationECR14.cs" />
     <Compile Include="Codeforces\C%27s\LorenzoVonMatterhorn362.cs" />
@@ -155,7 +156,6 @@
     <Compile Include="Codeforces\D%27s\Suspects110.cs" />
     <Compile Include="Codeforces\D%27s\VasiliysMultiset367.cs" />
     <Compile Include="Codeforces\D%27s\MishkaAndInterestingSum365.cs" />
-    <Compile Include="Codeforces\D%27s\AlyonaAndStrings358.cs" />
     <Compile Include="Codeforces\D%27s\AsFastAsPossible364.cs" />
     <Compile Include="Codeforces\D%27s\FixaTree363.cs" />
     <Compile Include="Codeforces\D%27s\Puzzles362.cs" />
