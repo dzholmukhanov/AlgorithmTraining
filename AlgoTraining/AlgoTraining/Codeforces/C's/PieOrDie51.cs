@@ -20,7 +20,7 @@ namespace AlgoTraining.Codeforces.C_s
                 while (k-- > 0)
                 {
                     int x = fs.NextInt(), y = fs.NextInt();
-                    if (n <= 6 || m <= 6 || x >= 1 && x <= 3 || x >= n - 2 && x <= n || y >= 1 && y <= 3 || y >= m - 2 && y <= m) res = true;
+                    if (n <= 10 || m <= 10 || x >= 1 && x <= 5 || x >= n - 4 && x <= n || y >= 1 && y <= 5 || y >= m - 4 && y <= m) res = true;
                 }
                 writer.WriteLine(res ? "YES" : "NO");
             }
