@@ -19,7 +19,6 @@ namespace CFTraining
             }
             return new string(sb.ToString().Reverse().ToArray());
         }
-
         private static int PaddedBinaryToDecimal(string bin)
         {
             int x = 0, k = 0;
