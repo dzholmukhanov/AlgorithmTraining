@@ -119,6 +119,7 @@
     <Compile Include="Codeforces\B%27s\TheTimeECR7.cs" />
     <Compile Include="Codeforces\B%27s\VanyaAndFoodProcessor355.cs" />
     <Compile Include="Codeforces\C%27s\Array53.cs" />
+    <Compile Include="Codeforces\C%27s\CaptureValerian57.cs" />
     <Compile Include="Codeforces\C%27s\CrazyTown284.cs" />
     <Compile Include="Codeforces\C%27s\EnduringExodusCROC2016.cs" />
     <Compile Include="Codeforces\C%27s\HardProblem367.cs" />
@@ -192,6 +193,7 @@
     <Compile Include="Codeforces\D%27s\WorldTour349.cs" />
     <Compile Include="Codeforces\E%27s\AntsInLeavesECR7.cs" />
     <Compile Include="Codeforces\E%27s\CBSEditor350.cs" />
+    <Compile Include="Codeforces\E%27s\HackIt268.cs" />
     <Compile Include="Codeforces\E%27s\MikeAndGeometryProblem361.cs" />
     <Compile Include="Codeforces\E%27s\NewReform346.cs" />
     <Compile Include="Codeforces\E%27s\Please362.cs" />
