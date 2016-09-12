@@ -53,6 +53,7 @@
     <Compile Include="Codeforces\8VCVentureCup2016\RobotSequenceA.cs" />
     <Compile Include="Codeforces\8VCVentureCup2016\Test.cs" />
     <Compile Include="Codeforces\8VCVentureCup2016\XorEquationC.cs" />
+    <Compile Include="Codeforces\A%27s\MemoryAndCow370.cs" />
     <Compile Include="Codeforces\A%27s\BeruTaxi367.cs" />
     <Compile Include="Codeforces\A%27s\Hulk366.cs" />
     <Compile Include="Codeforces\A%27s\MishkaAndGame365.cs" />
@@ -95,6 +96,7 @@
     <Compile Include="Codeforces\AprilFool2016\ScrambledB.cs" />
     <Compile Include="Codeforces\AprilFool2016\WithoutTextC.cs" />
     <Compile Include="Codeforces\AprilFool2016\YouAreProfessionalG.cs" />
+    <Compile Include="Codeforces\B%27s\MemoryAndTrident370.cs" />
     <Compile Include="Codeforces\B%27s\InterestingDrink367.cs" />
     <Compile Include="Codeforces\B%27s\SpiderMan366.cs" />
     <Compile Include="Codeforces\B%27s\MishkaAndTrip365.cs" />
@@ -156,6 +158,7 @@
     <Compile Include="Codeforces\Croc2016\ProcessingQueriesB.cs" />
     <Compile Include="Codeforces\D%27s\Chocolate31.cs" />
     <Compile Include="Codeforces\D%27s\Colliders109.cs" />
+    <Compile Include="Codeforces\D%27s\MemoryAndScores370.cs" />
     <Compile Include="Codeforces\D%27s\PalindromeDegree7.cs" />
     <Compile Include="Codeforces\D%27s\Suspects110.cs" />
     <Compile Include="Codeforces\D%27s\TwoSets268.cs" />
@@ -201,6 +204,7 @@
     <Compile Include="Codeforces\E%27s\TrainsAndStatistic353.cs" />
     <Compile Include="Codeforces\F%27s\CoupleCoverECR14.cs" />
     <Compile Include="Codeforces\E%27s\XorSequencesECR14.cs" />
+    <Compile Include="Codeforces\F%27s\Numbers94.cs" />
     <Compile Include="Codeforces\F%27s\PolycarpAndHay346.cs" />
     <Compile Include="Codeforces\VkCup2016\BearAndDisplayedFriendsB.cs" />
     <Compile Include="Codeforces\VkCup2016\BearAndForgottenTree3C.cs" />
