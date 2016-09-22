@@ -122,6 +122,7 @@
     <Compile Include="Codeforces\B%27s\ShoppingECR12.cs" />
     <Compile Include="Codeforces\B%27s\TheTimeECR7.cs" />
     <Compile Include="Codeforces\B%27s\VanyaAndFoodProcessor355.cs" />
+    <Compile Include="Codeforces\E%27s\PlayingWithSuperglueCroc.cs" />
     <Compile Include="Codeforces\C%27s\SonyaAndQueries371.cs" />
     <Compile Include="Codeforces\C%27s\Array53.cs" />
     <Compile Include="Codeforces\C%27s\CaptureValerian57.cs" />
@@ -163,6 +164,7 @@
     <Compile Include="Codeforces\D%27s\Colliders109.cs" />
     <Compile Include="Codeforces\D%27s\MemoryAndScores370.cs" />
     <Compile Include="Codeforces\D%27s\PalindromeDegree7.cs" />
+    <Compile Include="Codeforces\D%27s\RussianRoulette80.cs" />
     <Compile Include="Codeforces\D%27s\Suspects110.cs" />
     <Compile Include="Codeforces\D%27s\TwoSets268.cs" />
     <Compile Include="Codeforces\D%27s\VasiliysMultiset367.cs" />
