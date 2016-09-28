@@ -157,6 +157,7 @@
     <Compile Include="Codeforces\D%27s\Chocolate31.cs" />
     <Compile Include="Codeforces\D%27s\Colliders109.cs" />
     <Compile Include="Codeforces\D%27s\PalindromeDegree7.cs" />
+    <Compile Include="Codeforces\D%27s\Queue205.cs" />
     <Compile Include="Codeforces\D%27s\Suspects110.cs" />
     <Compile Include="Codeforces\D%27s\TwoSets268.cs" />
     <Compile Include="Codeforces\D%27s\VasiliysMultiset367.cs" />
@@ -193,7 +194,6 @@
     <Compile Include="Codeforces\D%27s\WorldTour349.cs" />
     <Compile Include="Codeforces\E%27s\AntsInLeavesECR7.cs" />
     <Compile Include="Codeforces\E%27s\CBSEditor350.cs" />
-    <Compile Include="Codeforces\E%27s\HackIt268.cs" />
     <Compile Include="Codeforces\E%27s\MikeAndGeometryProblem361.cs" />
     <Compile Include="Codeforces\E%27s\NewReform346.cs" />
     <Compile Include="Codeforces\E%27s\Please362.cs" />

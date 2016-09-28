@@ -36,7 +36,7 @@ namespace CFTraining
     {
         public static void Main(string[] args)
         {
-            FriendsAndSubsequences361.Run();
+            Queue205.Run();
         }
     }
 }
