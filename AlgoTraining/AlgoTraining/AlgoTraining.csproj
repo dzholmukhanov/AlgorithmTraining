@@ -129,6 +129,7 @@
     <Compile Include="Codeforces\D%27s\BabaeiAndBirthdayCake2343.cs" />
     <Compile Include="Codeforces\D%27s\Buses79.cs" />
     <Compile Include="Codeforces\D%27s\LeavingAuction388.cs" />
+    <Compile Include="Codeforces\D%27s\LuckyNumbers77.cs" />
     <Compile Include="Codeforces\E%27s\InversionsAfterShuffle388.cs" />
     <Compile Include="Codeforces\E%27s\PlayingWithSuperglueCroc.cs" />
     <Compile Include="Codeforces\C%27s\SonyaAndQueries371.cs" />
@@ -212,12 +213,15 @@
     <Compile Include="Codeforces\E%27s\MikeAndGeometryProblem361.cs" />
     <Compile Include="Codeforces\E%27s\NewReform346.cs" />
     <Compile Include="Codeforces\E%27s\Please362.cs" />
+    <Compile Include="Codeforces\E%27s\RidingALift274.cs" />
     <Compile Include="Codeforces\E%27s\TableCompression345.cs" />
     <Compile Include="Codeforces\E%27s\TrainsAndStatistic353.cs" />
     <Compile Include="Codeforces\F%27s\CoupleCoverECR14.cs" />
     <Compile Include="Codeforces\E%27s\XorSequencesECR14.cs" />
     <Compile Include="Codeforces\F%27s\Numbers94.cs" />
     <Compile Include="Codeforces\F%27s\PolycarpAndHay346.cs" />
+    <Compile Include="Codeforces\GoodBye2016\NewYearAndFireworksD.cs" />
+    <Compile Include="Codeforces\GoodBye2016\NewYearAndRatingC.cs" />
     <Compile Include="Codeforces\VkCup2016\BearAndDisplayedFriendsB.cs" />
     <Compile Include="Codeforces\VkCup2016\BearAndForgottenTree3C.cs" />
     <Compile Include="Codeforces\VkCup2016\BearReverseRadewooshA.cs" />

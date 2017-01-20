@@ -40,7 +40,7 @@ namespace AlgoTraining.Codeforces.E_s
         }
         public static double ExpectedInverseCount(long k)
         {
-            return k * (k - 1) / (decimal)4.0;
+            return k * (k - 1) / (double)4.0;
         }
     }
 }
