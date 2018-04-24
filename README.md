@@ -1,4 +1,2 @@
-# Algorithm Training
-My personal repository of algorithmic problem solutions written in C#.
-Dedicated for self-training.
-Mostly contains problems from codeforces.com.
+# Problem solving training
+Here I store solutions to some problems, mostly from Codeforces.ru.
