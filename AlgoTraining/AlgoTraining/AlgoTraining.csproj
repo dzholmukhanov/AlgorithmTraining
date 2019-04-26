@@ -131,6 +131,7 @@
     <Compile Include="Codeforces\D%27s\LeavingAuction388.cs" />
     <Compile Include="Codeforces\D%27s\LuckyNumbers77.cs" />
     <Compile Include="Codeforces\E%27s\InversionsAfterShuffle388.cs" />
+    <Compile Include="Codeforces\E%27s\NumberOfComponents.cs" />
     <Compile Include="Codeforces\E%27s\PlayingWithSuperglueCroc.cs" />
     <Compile Include="Codeforces\C%27s\SonyaAndQueries371.cs" />
     <Compile Include="Codeforces\C%27s\Array53.cs" />

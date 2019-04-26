@@ -36,7 +36,7 @@ namespace CFTraining
     {
         public static void Main(string[] args)
         {
-            Queue205.Run();
+            NumberOfComponents.Run();
         }
     }
 }
